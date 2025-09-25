@@ -85,14 +85,14 @@ function graficar() {
     const layoutZoom = {
         title: 'Zoom: Países con Esperanza de Vida > 80 años',
         xaxis: {
-            title: 'País',
+            title: 'Países (ordenados por esperanza de vida)',
             tickangle: 90,
-            tickfont: {size: 10},
+            tickfont: {size: 6},
             tickmode: 'array',
             tickvals: paisesZoom,
             ticktext: paisesZoom
         },
-        yaxis: {title: 'Gasto Salud Per Capita'},
+        yaxis: {title: 'Gasto Salud Per Capita (USD)'},
         bargap: 0.2
     };
 
@@ -244,13 +244,13 @@ function graficar() {
     const layoutBarras = {
         title: 'Gasto Salud Per Capita vs Esperanza de Vida',
         xaxis: {
-            title: 'Esperanza de vida',
+            title: 'Esperanza de vida (años)',
             tickangle: 0,
             tickfont: {size: 13},
             tickvals: tickvals, // <-- Países más cercanos a cada rango
             ticktext: ticktext  // <-- Etiquetas de los rangos
         },
-        yaxis: {title: 'Gasto Salud Per Capita'},
+        yaxis: {title: 'Gasto Salud Per Capita (USD)'},
         legend: {x: 0.8, y: 1.1},
         bargap: 0.2,
         annotations: [...anotaciones],
