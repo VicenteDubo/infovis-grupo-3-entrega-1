@@ -1,27 +1,27 @@
     // --- Línea recta SVG entre cuadro destacado y gráfico 2 ---
-    setTimeout(() => {
-        const svg = document.getElementById('svg-recta');
-        if (svg) {
-            svg.innerHTML = '';
+    //setTimeout(() => {
+        //const svg = document.getElementById('svg-recta');
+        //if (svg) {
+            //svg.innerHTML = '';
             // Coordenadas ajustadas para partir del centro del cuadro destacado sobre 80 años
             // x1: centro horizontal del rectángulo zona 80 años (aprox. 900)
             // y1: parte inferior del rectángulo (SVG top: 0)
             // x2: centro horizontal del gráfico 2 (1200/2 = 600)
             // y2: parte superior del gráfico 2 (SVG bottom: 80)
-            const x1 = 1115; // aún más a la derecha
-            const y1 = 45;   // más arriba (menor valor)
-            const x2 = 980;
-            const y2 = 240;
-            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-            line.setAttribute('x1', x1);
-            line.setAttribute('y1', y1);
-            line.setAttribute('x2', x2);
-            line.setAttribute('y2', y2);
-            line.setAttribute('stroke', 'purple');
-            line.setAttribute('stroke-width', '4');
-            svg.appendChild(line)
-        }
-    }, 500);
+            //const x1 = 1115; // aún más a la derecha
+            //const y1 = 45;   // más arriba (menor valor)
+            //const x2 = 980;
+            //const y2 = 240;
+            //const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            //line.setAttribute('x1', x1);
+            //line.setAttribute('y1', y1);
+            //line.setAttribute('x2', x2);
+            //line.setAttribute('y2', y2);
+            //line.setAttribute('stroke', 'purple');
+            //line.setAttribute('stroke-width', '4');
+            //svg.appendChild(line)
+       // }
+   // }, 500);
     // Cargar y graficar datos embebidos en datos.js
 function graficar() {
     // Filtrar y mapear datos relevantes
@@ -71,6 +71,10 @@ function graficar() {
     const colorBajo = colorMorado; // naranja
     const coloresZoom = gastoZoom.map(g => g < 2000 ? colorBajo : colorDefault);
 
+    // Agregar etiquetas '80' y '85' en los extremos del eje x
+    const paisesZoomTicks = ['80', ...paisesZoom, '85'];
+    const ticktextZoom = ['80', ...paisesZoom, '85'];
+
     const barrasZoom = {
         x: paisesZoom,
         y: gastoZoom,
@@ -83,14 +87,14 @@ function graficar() {
     };
 
     const layoutZoom = {
-        title: 'Zoom: Países con Esperanza de Vida > 80 años',
+        title: 'Zoom: Países con Esperanza de Vida mayor a 80 años',
         xaxis: {
-            title: 'Países (ordenados por esperanza de vida)',
+            title: 'Países ordenados por esperanza de vida',
             tickangle: 90,
-            tickfont: {size: 6},
+            tickfont: {size: 7},
             tickmode: 'array',
-            tickvals: paisesZoom,
-            ticktext: paisesZoom
+            tickvals: paisesZoomTicks,
+            ticktext: ticktextZoom
         },
         yaxis: {title: 'Gasto Salud Per Capita (USD)'},
         bargap: 0.2
@@ -141,8 +145,8 @@ function graficar() {
         showarrow: true,
         arrowhead: 6,
         ax: 0,
-        ay: -120,
-        font: {color: 'black', size: 12},
+        ay: -90,
+        font: {color: 'black', size: 9},
         align: 'left',
         bgcolor: '#fff',
         bordercolor: colorMorado,
@@ -157,26 +161,9 @@ function graficar() {
         text: `Estados Unidos<br>Esperanza: ${esperanzaOrdenada[idxEstadosUnidos]}<br>Gasto: ${gastoOrdenado[idxEstadosUnidos]}`,
         showarrow: true,
         arrowhead: 6,
-        ax: 100,
-        ay: -160,
-        font: {color: 'black', size: 12},
-        align: 'left',
-        bgcolor: '#fff',
-        bordercolor: colorMorado,
-        borderpad: 4
-    } : null;
-
-    const anotacionAlbania = idxAlbania !== -1 ? {
-        x: 'Albania',
-        y: gastoOrdenado[idxAlbania],
-        xref: 'x',
-        yref: 'y',
-        text: `Albania<br>Esperanza: ${esperanzaOrdenada[idxAlbania]}<br>Gasto: ${gastoOrdenado[idxAlbania]}`,
-        showarrow: true,
-        arrowhead: 6,
-        ax: -100,
-        ay: -200,
-        font: {color: 'black', size: 12},
+        ax: 0,
+        ay: -60,
+        font: {color: 'black', size: 9},
         align: 'left',
         bgcolor: '#fff',
         bordercolor: colorMorado,
@@ -192,15 +179,33 @@ function graficar() {
         showarrow: true,
         arrowhead: 6,
         ax: 0,
-        ay: -80,
-        font: {color: 'black', size: 12},
+        ay: -200,
+        font: {color: 'black', size: 9},
         align: 'left',
         bgcolor: '#fff',
         bordercolor: colorMorado,
         borderpad: 4
     } : null;
 
-    const anotaciones = [anotacionNauru, anotacionEstadosUnidos, anotacionAlbania, anotacionChile].filter(a => a);
+    const anotacionAlbania = idxAlbania !== -1 ? {
+        x: 'Albania',
+        y: gastoOrdenado[idxAlbania],
+        xref: 'x',
+        yref: 'y',
+        text: `Albania<br>Esperanza: ${esperanzaOrdenada[idxAlbania]}<br>Gasto: ${gastoOrdenado[idxAlbania]}`,
+        showarrow: true,
+        arrowhead: 6,
+        ax: 0,
+        ay: -140,
+        font: {color: 'black', size: 9},
+        align: 'left',
+        bgcolor: '#fff',
+        bordercolor: colorMorado,
+        borderpad: 4
+    } : null;
+
+
+    const anotaciones = [anotacionNauru, anotacionEstadosUnidos, anotacionChile, anotacionAlbania].filter(a => a);
 
     // Calcular zona de esperanza de vida > 80 años
     const idx80 = esperanzaOrdenada.findIndex(ev => ev > 80);
@@ -220,7 +225,7 @@ function graficar() {
         y0: yMin,
         y1: yMax,
         fillcolor: 'rgba(200,200,255,0.2)',
-        line: {color: 'rgba(128,0,128,0.7)', width: 2},
+        line: {color: 'rgba(128,0,128,0.7)', width: 0},
         layer: 'below'
     };
 
@@ -242,9 +247,9 @@ function graficar() {
         //     borderpad: 6
         // };
     const layoutBarras = {
-        title: 'Gasto Salud Per Capita vs Esperanza de Vida',
+        title: 'Gasto Salud Per Capita vs Esperanza de Vida por País',
         xaxis: {
-            title: 'Esperanza de vida (años)',
+            title: 'Países ordenados por esperanza de vida',
             tickangle: 0,
             tickfont: {size: 13},
             tickvals: tickvals, // <-- Países más cercanos a cada rango
@@ -253,8 +258,8 @@ function graficar() {
         yaxis: {title: 'Gasto Salud Per Capita (USD)'},
         legend: {x: 0.8, y: 1.1},
         bargap: 0.2,
-        annotations: [...anotaciones],
-        shapes: [shapeZona80]
+        annotations: [...anotaciones]
+        //shapes: [shapeZona80]
     };
 
 
