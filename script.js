@@ -48,10 +48,8 @@ function graficar() {
     const idxNauru = paisesOrdenados.indexOf('Nauru');
     const idxEstadosUnidos = paisesOrdenados.indexOf('Estados Unidos');
     const idxAlbania = paisesOrdenados.indexOf('Albania');
-    const idxChile = paisesOrdenados.indexOf('Chile');
-    
     // Colores personalizados para países destacados
-    const destacados = ['Nauru', 'Estados Unidos', 'Albania','Chile'];
+    const destacados = ['Nauru', 'Estados Unidos', 'Albania'];
     const colorMorado = 'rgba(128,0,128,0.9)';
     const colorDefault = 'rgba(55,128,191,0.7)';
     const coloresBarras = paisesOrdenados.map(p => destacados.includes(p) ? colorMorado : colorDefault);
@@ -71,10 +69,6 @@ function graficar() {
     const colorBajo = colorMorado; // naranja
     const coloresZoom = gastoZoom.map(g => g < 2000 ? colorBajo : colorDefault);
 
-    // Agregar etiquetas '80' y '85' en los extremos del eje x
-    const paisesZoomTicks = ['80', ...paisesZoom, '85'];
-    const ticktextZoom = ['80', ...paisesZoom, '85'];
-
     const barrasZoom = {
         x: paisesZoom,
         y: gastoZoom,
@@ -87,14 +81,14 @@ function graficar() {
     };
 
     const layoutZoom = {
-        title: 'Zoom: Países con Esperanza de Vida mayor a 80 años',
+        title: 'Zoom: Países con Esperanza de Vida Mayor a 80 Años',
         xaxis: {
             title: 'Países ordenados por esperanza de vida',
             tickangle: 90,
-            tickfont: {size: 7},
+            tickfont: {size:8},
             tickmode: 'array',
-            tickvals: paisesZoomTicks,
-            ticktext: ticktextZoom
+            tickvals: paisesZoom,
+            ticktext: paisesZoom
         },
         yaxis: {title: 'Gasto Salud Per Capita (USD)'},
         bargap: 0.2
@@ -141,7 +135,7 @@ function graficar() {
         y: gastoOrdenado[idxNauru],
         xref: 'x',
         yref: 'y',
-        text: `Nauru<br>Esperanza: ${esperanzaOrdenada[idxNauru]}<br>Gasto: ${gastoOrdenado[idxNauru]}`,
+        text: `Nauru gasta <b>más que<br>el 84%</b> de los países,<br>pero tiene una<br>esperanza de vida<br>de solo ${esperanzaOrdenada[idxNauru]} años.`,
         showarrow: true,
         arrowhead: 6,
         ax: 0,
@@ -158,7 +152,7 @@ function graficar() {
         y: gastoOrdenado[idxEstadosUnidos],
         xref: 'x',
         yref: 'y',
-        text: `Estados Unidos<br>Esperanza: ${esperanzaOrdenada[idxEstadosUnidos]}<br>Gasto: ${gastoOrdenado[idxEstadosUnidos]}`,
+        text: `Estados Unidos gasta<br><b>65 veces más</b> que<br>Albania y tiene una<br>esperanza de vida peor.`,
         showarrow: true,
         arrowhead: 6,
         ax: 0,
@@ -170,29 +164,13 @@ function graficar() {
         borderpad: 4
     } : null;
 
-    const anotacionChile = idxChile !== -1 ? {
-        x: 'Chile',
-        y: gastoOrdenado[idxChile],
-        xref: 'x',
-        yref: 'y',
-        text: `Chile<br>Esperanza: ${esperanzaOrdenada[idxChile]}<br>Gasto: ${gastoOrdenado[idxChile]}`,
-        showarrow: true,
-        arrowhead: 6,
-        ax: 0,
-        ay: -200,
-        font: {color: 'black', size: 9},
-        align: 'left',
-        bgcolor: '#fff',
-        bordercolor: colorMorado,
-        borderpad: 4
-    } : null;
 
     const anotacionAlbania = idxAlbania !== -1 ? {
         x: 'Albania',
         y: gastoOrdenado[idxAlbania],
         xref: 'x',
         yref: 'y',
-        text: `Albania<br>Esperanza: ${esperanzaOrdenada[idxAlbania]}<br>Gasto: ${gastoOrdenado[idxAlbania]}`,
+        text: `Albania gasta <b>menos que<br>el 66%</b> de los países y<br>tiene <b>mejor</b> esperanza de<br>vida <b>que el 80%</b> de ellos.`,
         showarrow: true,
         arrowhead: 6,
         ax: 0,
@@ -205,7 +183,7 @@ function graficar() {
     } : null;
 
 
-    const anotaciones = [anotacionNauru, anotacionEstadosUnidos, anotacionChile, anotacionAlbania].filter(a => a);
+    const anotaciones = [anotacionNauru, anotacionEstadosUnidos, anotacionAlbania].filter(a => a);
 
     // Calcular zona de esperanza de vida > 80 años
     const idx80 = esperanzaOrdenada.findIndex(ev => ev > 80);
