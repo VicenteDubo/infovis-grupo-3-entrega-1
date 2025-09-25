@@ -98,7 +98,7 @@ function graficar() {
                 y: Math.max(...gastoZoom)*0.93,
                 xref: 'x',
                 yref: 'y',
-                text: '<b>Un tercio de los países<br>con esperanza de vida mayor 80 años<br>gasta menos de 2000 USD per cápita</b>',
+                text: '<b>Un tercio de los países<br>con esperanza de vida mayor a 80 años<br>gasta menos de 2000 USD per cápita</b>',
                 showarrow: false,
                 font: {color: 'white', size: 9},
                 align: 'center',
@@ -109,7 +109,10 @@ function graficar() {
         ]
     };
 
-    Plotly.newPlot('grafico-zoom', [barrasZoom], layoutZoom, {displayModeBar: false});
+    Plotly.newPlot('grafico-zoom', [barrasZoom], layoutZoom, {
+        displayModeBar: false,
+        staticPlot: true
+    });
 
 
      // Rangos personalizados
@@ -256,7 +259,10 @@ function graficar() {
     };
 
 
-    Plotly.newPlot('grafico', [barras], layoutBarras, {displayModeBar: false});
+    Plotly.newPlot('grafico', [barras], layoutBarras, {
+        displayModeBar: false,
+        staticPlot: true
+    });
 
     // --- REGRESIÓN LINEAL PARA DISPERSIÓN ---
     function regresionLineal(x, y) {
