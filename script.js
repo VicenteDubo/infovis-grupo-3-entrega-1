@@ -8,10 +8,6 @@ function graficar() {
     const eficiencia = datos.map(d => Number(d["Eficiencia"].replace(',', '.')));
 
 
-
-
-
-
     // Ordenar por esperanza de vida
     const orden = esperanzaVida
         .map((ev, i) => ({ev, i}))
@@ -23,7 +19,27 @@ function graficar() {
     const gastoOrdenado = orden.map(i => gastoPerCapita[i]);
 
 
-    // Gráfico de barras (sin cambios)
+     // Rangos personalizados
+    const rangos = [60, 65, 75, 80, 85];
+    // Buscar el índice del país más cercano a cada rango
+    const tickIndices = rangos.map(rango => {
+        let minDiff = Infinity;
+        let idx = 0;
+        esperanzaOrdenada.forEach((ev, i) => {
+            const diff = Math.abs(ev - rango);
+            if (diff < minDiff) {
+                minDiff = diff;
+                idx = i;
+            }
+        });
+        return idx;
+    });
+
+    // Usar los nombres de los países en esos índices como etiquetas
+    const tickvals = tickIndices.map(i => paisesOrdenados[i]);
+    const ticktext = rangos.map(r => r.toString());
+
+    // Gráfico de barras
     const barras = {
         x: paisesOrdenados,
         y: gastoOrdenado,
@@ -40,11 +56,13 @@ function graficar() {
         xaxis: {
             title: 'Esperanza de vida',
             tickangle: 90,
-            tickfont: {size: 2}
+            tickfont: {size: 10},
+            tickvals: tickvals, // <-- Países más cercanos a cada rango
+            ticktext: ticktext  // <-- Etiquetas de los rangos
         },
         yaxis: {title: 'Gasto Salud Per Capita'},
         legend: {x: 0.8, y: 1.1},
-        bargap: 1
+        bargap: 0.2
     };
 
 
