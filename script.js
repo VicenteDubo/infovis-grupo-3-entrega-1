@@ -1,5 +1,28 @@
-
-// Cargar y graficar datos embebidos en datos.js
+    // --- Línea recta SVG entre cuadro destacado y gráfico 2 ---
+    setTimeout(() => {
+        const svg = document.getElementById('svg-recta');
+        if (svg) {
+            svg.innerHTML = '';
+            // Coordenadas ajustadas para partir del centro del cuadro destacado sobre 80 años
+            // x1: centro horizontal del rectángulo zona 80 años (aprox. 900)
+            // y1: parte inferior del rectángulo (SVG top: 0)
+            // x2: centro horizontal del gráfico 2 (1200/2 = 600)
+            // y2: parte superior del gráfico 2 (SVG bottom: 80)
+            const x1 = 1115; // aún más a la derecha
+            const y1 = 45;   // más arriba (menor valor)
+            const x2 = 980;
+            const y2 = 240;
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', x1);
+            line.setAttribute('y1', y1);
+            line.setAttribute('x2', x2);
+            line.setAttribute('y2', y2);
+            line.setAttribute('stroke', 'purple');
+            line.setAttribute('stroke-width', '4');
+            svg.appendChild(line)
+        }
+    }, 500);
+    // Cargar y graficar datos embebidos en datos.js
 function graficar() {
     // Filtrar y mapear datos relevantes
     const paises = datos.map(d => d["Países"].trim());
@@ -17,6 +40,63 @@ function graficar() {
     const paisesOrdenados = orden.map(i => paises[i]);
     const esperanzaOrdenada = orden.map(i => esperanzaVida[i]);
     const gastoOrdenado = orden.map(i => gastoPerCapita[i]);
+    const eficienciaOrdenada = orden.map(i => eficiencia[i]);
+    
+    
+    
+    // Crear anotaciones separadas para cada país destacado
+    const idxNauru = paisesOrdenados.indexOf('Nauru');
+    const idxEstadosUnidos = paisesOrdenados.indexOf('Estados Unidos');
+    const idxAlbania = paisesOrdenados.indexOf('Albania');
+    const idxChile = paisesOrdenados.indexOf('Chile');
+    
+    // Colores personalizados para países destacados
+    const destacados = ['Nauru', 'Estados Unidos', 'Albania','Chile'];
+    const colorMorado = 'rgba(128,0,128,0.9)';
+    const colorDefault = 'rgba(55,128,191,0.7)';
+    const coloresBarras = paisesOrdenados.map(p => destacados.includes(p) ? colorMorado : colorDefault);
+    // --- GRAFICO ZOOM: Países con esperanza de vida > 80 años ---
+    const paisesZoom = [];
+    const gastoZoom = [];
+    const esperanzaZoom = [];
+    for (let i = 0; i < paisesOrdenados.length; i++) {
+        if (esperanzaOrdenada[i] > 80) {
+            paisesZoom.push(paisesOrdenados[i]);
+            gastoZoom.push(gastoOrdenado[i]);
+            esperanzaZoom.push(esperanzaOrdenada[i]);
+        }
+    }
+
+    // Colores para países con gasto < 2000 dólares y > 2000 igual que el principal
+    const colorBajo = colorMorado; // naranja
+    const coloresZoom = gastoZoom.map(g => g < 2000 ? colorBajo : colorDefault);
+
+    const barrasZoom = {
+        x: paisesZoom,
+        y: gastoZoom,
+        text: esperanzaZoom.map((ev, i) => `${paisesZoom[i]}<br>Esperanza de vida: ${ev}<br>Gasto per cápita: ${gastoZoom[i]}`),
+        type: 'bar',
+        marker: {color: coloresZoom},
+        name: 'Zona > 80 años',
+        hovertemplate: '%{text}<extra></extra>',
+        width: 0.8
+    };
+
+    const layoutZoom = {
+        title: 'Zoom: Países con Esperanza de Vida > 80 años',
+        xaxis: {
+            title: 'País',
+            tickangle: 90,
+            tickfont: {size: 10},
+            tickmode: 'array',
+            tickvals: paisesZoom,
+            ticktext: paisesZoom
+        },
+        yaxis: {title: 'Gasto Salud Per Capita'},
+        bargap: 0.2
+    };
+
+    Plotly.newPlot('grafico-zoom', [barrasZoom], layoutZoom, {displayModeBar: false});
 
 
      // Rangos personalizados
@@ -43,26 +123,138 @@ function graficar() {
     const barras = {
         x: paisesOrdenados,
         y: gastoOrdenado,
-        text: esperanzaOrdenada.map(ev => `Esperanza de vida: ${ev}`),
+        text: esperanzaOrdenada.map((ev, i) => `${paisesOrdenados[i]}<br>Esperanza de vida: ${ev}<br>Gasto per cápita: ${gastoOrdenado[i]}`),
         type: 'bar',
-        marker: {color: 'rgba(55,128,191,0.7)'},
+        marker: {color: coloresBarras},
         name: 'Gasto Salud Per Capita',
-        hovertemplate: '%{text}<br>Esperanza de vida: %{x}<br>Gasto per cápita: %{y}<extra></extra>',
+        hovertemplate: '%{text}<extra></extra>',
         width: 0.8
     };
 
+
+    const anotacionNauru = idxNauru !== -1 ? {
+        x: 'Nauru',
+        y: gastoOrdenado[idxNauru],
+        xref: 'x',
+        yref: 'y',
+        text: `Nauru<br>Esperanza: ${esperanzaOrdenada[idxNauru]}<br>Gasto: ${gastoOrdenado[idxNauru]}`,
+        showarrow: true,
+        arrowhead: 6,
+        ax: 0,
+        ay: -120,
+        font: {color: 'black', size: 12},
+        align: 'left',
+        bgcolor: '#fff',
+        bordercolor: colorMorado,
+        borderpad: 4
+    } : null;
+
+    const anotacionEstadosUnidos = idxEstadosUnidos !== -1 ? {
+        x: 'Estados Unidos',
+        y: gastoOrdenado[idxEstadosUnidos],
+        xref: 'x',
+        yref: 'y',
+        text: `Estados Unidos<br>Esperanza: ${esperanzaOrdenada[idxEstadosUnidos]}<br>Gasto: ${gastoOrdenado[idxEstadosUnidos]}`,
+        showarrow: true,
+        arrowhead: 6,
+        ax: 100,
+        ay: -160,
+        font: {color: 'black', size: 12},
+        align: 'left',
+        bgcolor: '#fff',
+        bordercolor: colorMorado,
+        borderpad: 4
+    } : null;
+
+    const anotacionAlbania = idxAlbania !== -1 ? {
+        x: 'Albania',
+        y: gastoOrdenado[idxAlbania],
+        xref: 'x',
+        yref: 'y',
+        text: `Albania<br>Esperanza: ${esperanzaOrdenada[idxAlbania]}<br>Gasto: ${gastoOrdenado[idxAlbania]}`,
+        showarrow: true,
+        arrowhead: 6,
+        ax: -100,
+        ay: -200,
+        font: {color: 'black', size: 12},
+        align: 'left',
+        bgcolor: '#fff',
+        bordercolor: colorMorado,
+        borderpad: 4
+    } : null;
+
+    const anotacionChile = idxChile !== -1 ? {
+        x: 'Chile',
+        y: gastoOrdenado[idxChile],
+        xref: 'x',
+        yref: 'y',
+        text: `Chile<br>Esperanza: ${esperanzaOrdenada[idxChile]}<br>Gasto: ${gastoOrdenado[idxChile]}`,
+        showarrow: true,
+        arrowhead: 6,
+        ax: 0,
+        ay: -80,
+        font: {color: 'black', size: 12},
+        align: 'left',
+        bgcolor: '#fff',
+        bordercolor: colorMorado,
+        borderpad: 4
+    } : null;
+
+    const anotaciones = [anotacionNauru, anotacionEstadosUnidos, anotacionAlbania, anotacionChile].filter(a => a);
+
+    // Calcular zona de esperanza de vida > 80 años
+    const idx80 = esperanzaOrdenada.findIndex(ev => ev > 80);
+    const idxMax = esperanzaOrdenada.length - 1;
+    const x0 = paisesOrdenados[idx80];
+    const x1 = paisesOrdenados[idxMax];
+    const yMin = 0;
+    const yMax = Math.max(...gastoOrdenado) * 1.05;
+
+    // Shape para el rectángulo
+    const shapeZona80 = {
+        type: 'rect',
+        xref: 'x',
+        yref: 'y',
+        x0: x0,
+        x1: x1,
+        y0: yMin,
+        y1: yMax,
+        fillcolor: 'rgba(200,200,255,0.2)',
+        line: {color: 'rgba(128,0,128,0.7)', width: 2},
+        layer: 'below'
+    };
+
+    // Anotación conectada al rectángulo
+    // const anotacionZona80 = {
+        //     x: x1,
+        //     y: yMax,
+        //     xref: 'x',
+        //     yref: 'y',
+        //     text: `Zona de Esperanza de Vida > 80 años`,
+        //     showarrow: true,
+        //     arrowhead: 6,
+        //     ax:0,
+        //     ay: -90,
+        //     font: {color: 'black', size: 13},
+        //     align: 'center',
+        //     bgcolor: '#fff',
+        //     bordercolor: 'rgba(128,0,128,0.7)',
+        //     borderpad: 6
+        // };
     const layoutBarras = {
         title: 'Gasto Salud Per Capita vs Esperanza de Vida',
         xaxis: {
             title: 'Esperanza de vida',
-            tickangle: 90,
-            tickfont: {size: 10},
+            tickangle: 0,
+            tickfont: {size: 13},
             tickvals: tickvals, // <-- Países más cercanos a cada rango
             ticktext: ticktext  // <-- Etiquetas de los rangos
         },
         yaxis: {title: 'Gasto Salud Per Capita'},
         legend: {x: 0.8, y: 1.1},
-        bargap: 0.2
+        bargap: 0.2,
+        annotations: [...anotaciones],
+        shapes: [shapeZona80]
     };
 
 
@@ -126,7 +318,7 @@ function graficar() {
         legend: {font: {size: 7}} // <-- Ajusta el tamaño de la letra de la leyenda aquí
     };
 
-    Plotly.newPlot('grafico2', [dispersion, lineaRegresion], layoutDispersion, {displayModeBar: false});
+    // Plotly.newPlot('grafico2', [dispersion, lineaRegresion], layoutDispersion, {displayModeBar: false});
 }
 
 window.onload = graficar;
