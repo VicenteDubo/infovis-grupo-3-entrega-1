@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico con Plotly</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gasto público en Salud y Esperanza de Vida</h1>
+    <div id="graficos-container" style="display: flex; flex-direction: column; gap: 40px; align-items: center;">
+        <div>
+            <div id="grafico" style="width:700px; height:500px;"></div>
+        </div>
+        <div>
+            <div id="grafico2" style="width:700px; height:500px;"></div>
+        </div>
+    </div>
+    <script src="datos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
