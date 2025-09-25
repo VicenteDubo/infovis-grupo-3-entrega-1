@@ -91,7 +91,22 @@ function graficar() {
             ticktext: paisesZoom
         },
         yaxis: {title: 'Gasto Salud Per Capita (USD)'},
-        bargap: 0.2
+        bargap: 0.2,
+        annotations: [
+            {
+                x: paisesZoom[Math.floor(paisesZoom.length/2) - 3],
+                y: Math.max(...gastoZoom)*0.93,
+                xref: 'x',
+                yref: 'y',
+                text: '<b>Un tercio de los países<br>con esperanza de vida mayor 80 años<br>gasta menos de 2000 USD per cápita</b>',
+                showarrow: false,
+                font: {color: 'white', size: 9},
+                align: 'center',
+                bgcolor: 'rgba(128,0,128,0.9)',
+                bordercolor: 'rgba(128,0,128,1)',
+                borderpad: 2
+            }
+        ]
     };
 
     Plotly.newPlot('grafico-zoom', [barrasZoom], layoutZoom, {displayModeBar: false});
