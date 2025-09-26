@@ -6,7 +6,7 @@ const datos =   [
       "Gasto Salud (M.€)": "106.331.861.000,0",
       "G. Salud (%G. Público Total)": "15,22%",
       "G. Salud %PIB": "6,68%",
-      "G. Público Salud Per Capita": "2.187,00",
+      "G. Público Salud Per Cápita": "2.187,00",
       "Var.": [
          "4,69%",
          "0,83%"
@@ -23,7 +23,7 @@ const datos =   [
       "Gasto Salud (M.€)": "455.619.000.000,0",
       "G. Salud (%G. Público Total)": "20,46%",
       "G. Salud %PIB": "10,58%",
-      "G. Público Salud Per Capita": "5.459,00",
+      "G. Público Salud Per Cápita": "5.459,00",
       "Var.": [
          "7,74%",
          "0,50%"
@@ -40,7 +40,7 @@ const datos =   [
       "Gasto Salud (M.€)": "304.812.258.156,0",
       "G. Salud (%G. Público Total)": "20,67%",
       "G. Salud %PIB": "9,05%",
-      "G. Público Salud Per Capita": "4.385,00",
+      "G. Público Salud Per Cápita": "4.385,00",
       "Var.": [
          "-11,60%",
          "0,28%"
@@ -57,7 +57,7 @@ const datos =   [
       "Gasto Salud (M.€)": "284.100.594.000,0",
       "G. Salud (%G. Público Total)": "15,25%",
       "G. Salud %PIB": "9,73%",
-      "G. Público Salud Per Capita": "4.149,00",
+      "G. Público Salud Per Cápita": "4.149,00",
       "Var.": [
          "3,46%",
          "0,85%"
@@ -74,7 +74,7 @@ const datos =   [
       "Gasto Salud (M.€)": "137.456.000.000,0",
       "G. Salud (%G. Público Total)": "11,85%",
       "G. Salud %PIB": "6,27%",
-      "G. Público Salud Per Capita": "2.331,00",
+      "G. Público Salud Per Cápita": "2.331,00",
       "Var.": [
          "5,12%",
          "0,85%"
@@ -91,7 +91,7 @@ const datos =   [
       "Gasto Salud (M.€)": "18.166.992.000,0",
       "G. Salud (%G. Público Total)": "14,81%",
       "G. Salud %PIB": "6,37%",
-      "G. Público Salud Per Capita": "1.707,00",
+      "G. Público Salud Per Cápita": "1.707,00",
       "Var.": [
          "9,41%",
          "0,86%"
@@ -108,7 +108,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.857.639.616.400,9",
       "G. Salud (%G. Público Total)": "24,74%",
       "G. Salud %PIB": "14,30%",
-      "G. Público Salud Per Capita": "11.458,00",
+      "G. Público Salud Per Cápita": "11.458,00",
       "Var.": [
          "7,64%",
          "1,23%"
@@ -125,7 +125,7 @@ const datos =   [
       "Gasto Salud (M.€)": "335.021.650.434,2",
       "G. Salud (%G. Público Total)": "23,42%",
       "G. Salud %PIB": "9,01%",
-      "G. Público Salud Per Capita": "2.706,00",
+      "G. Público Salud Per Cápita": "2.706,00",
       "Var.": [
          "-12,39%",
          "0,05%"
@@ -142,7 +142,7 @@ const datos =   [
       "Gasto Salud (M.€)": "501.123.385.884,6",
       "G. Salud (%G. Público Total)": "8,80%",
       "G. Salud %PIB": "2,88%",
-      "G. Público Salud Per Capita": "352,00",
+      "G. Público Salud Per Cápita": "352,00",
       "Var.": [
          "1,82%",
          "-0,32%"
@@ -159,7 +159,7 @@ const datos =   [
       "Gasto Salud (M.€)": "194,3",
       "G. Salud (%G. Público Total)": "15,45%",
       "G. Salud %PIB": "5,64%",
-      "G. Público Salud Per Capita": "2.403,00",
+      "G. Público Salud Per Cápita": "2.403,00",
       "Var.": [
          "10,81%",
          "1,32%"
@@ -176,7 +176,7 @@ const datos =   [
       "Gasto Salud (M.€)": "13.335,5",
       "G. Salud (%G. Público Total)": "12,07%",
       "G. Salud %PIB": "2,77%",
-      "G. Público Salud Per Capita": "1.302,00",
+      "G. Público Salud Per Cápita": "1.302,00",
       "Var.": [
          "-4,95%",
          "3,01%"
@@ -193,7 +193,7 @@ const datos =   [
       "Gasto Salud (M.€)": "24,4",
       "G. Salud (%G. Público Total)": "1,13%",
       "G. Salud %PIB": "0,18%",
-      "G. Público Salud Per Capita": "1,00",
+      "G. Público Salud Per Cápita": "1,00",
       "Var.": [
          "-76,46%",
          "0,64%"
@@ -210,7 +210,7 @@ const datos =   [
       "Gasto Salud (M.€)": "54,9",
       "G. Salud (%G. Público Total)": "13,99%",
       "G. Salud %PIB": "3,29%",
-      "G. Público Salud Per Capita": "591,00",
+      "G. Público Salud Per Cápita": "591,00",
       "Var.": [
          "17,19%",
          "0,15%"
@@ -227,7 +227,7 @@ const datos =   [
       "Gasto Salud (M.€)": "503,3",
       "G. Salud (%G. Público Total)": "9,19%",
       "G. Salud %PIB": "2,80%",
-      "G. Público Salud Per Capita": "178,00",
+      "G. Público Salud Per Cápita": "178,00",
       "Var.": [
          "1,34%",
          "0,63%"
@@ -244,7 +244,7 @@ const datos =   [
       "Gasto Salud (M.€)": "316,7",
       "G. Salud (%G. Público Total)": "6,50%",
       "G. Salud %PIB": "1,72%",
-      "G. Público Salud Per Capita": "110,00",
+      "G. Público Salud Per Cápita": "110,00",
       "Var.": [
          "9,79%",
          "3,61%"
@@ -261,7 +261,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.768,0",
       "G. Salud (%G. Público Total)": "6,70%",
       "G. Salud %PIB": "1,51%",
-      "G. Público Salud Per Capita": "50,00",
+      "G. Público Salud Per Cápita": "50,00",
       "Var.": [
          "40,98%",
          "0,58%"
@@ -278,7 +278,7 @@ const datos =   [
       "Gasto Salud (M.€)": "37.655.700.091,8",
       "G. Salud (%G. Público Total)": "15,22%",
       "G. Salud %PIB": "6,29%",
-      "G. Público Salud Per Capita": "827,00",
+      "G. Público Salud Per Cápita": "827,00",
       "Var.": [
          "21,11%",
          "2,10%"
@@ -295,7 +295,7 @@ const datos =   [
       "Gasto Salud (M.€)": "43.496.353.000,0",
       "G. Salud (%G. Público Total)": "16,32%",
       "G. Salud %PIB": "8,98%",
-      "G. Público Salud Per Capita": "4.749,00",
+      "G. Público Salud Per Cápita": "4.749,00",
       "Var.": [
          "7,29%",
          "0,61%"
@@ -312,7 +312,7 @@ const datos =   [
       "Gasto Salud (M.€)": "126.435.864.268,7",
       "G. Salud (%G. Público Total)": "20,22%",
       "G. Salud %PIB": "7,47%",
-      "G. Público Salud Per Capita": "4.648,00",
+      "G. Público Salud Per Cápita": "4.648,00",
       "Var.": [
          "-6,77%",
          "-0,18%"
@@ -329,7 +329,7 @@ const datos =   [
       "Gasto Salud (M.€)": "900,7",
       "G. Salud (%G. Público Total)": "4,61%",
       "G. Salud %PIB": "1,21%",
-      "G. Público Salud Per Capita": "87,00",
+      "G. Público Salud Per Cápita": "87,00",
       "Var.": [
          "16,27%",
          "0,41%"
@@ -346,7 +346,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.337,5",
       "G. Salud (%G. Público Total)": "14,79%",
       "G. Salud %PIB": "5,73%",
-      "G. Público Salud Per Capita": "417,00",
+      "G. Público Salud Per Cápita": "417,00",
       "Var.": [
          "-7,79%",
          "1,40%"
@@ -363,7 +363,7 @@ const datos =   [
       "Gasto Salud (M.€)": "157,2",
       "G. Salud (%G. Público Total)": "8,74%",
       "G. Salud %PIB": "2,83%",
-      "G. Público Salud Per Capita": "557,00",
+      "G. Público Salud Per Cápita": "557,00",
       "Var.": [
          "-22,39%",
          "0,66%"
@@ -380,7 +380,7 @@ const datos =   [
       "Gasto Salud (M.€)": "626,9",
       "G. Salud (%G. Público Total)": "1,19%",
       "G. Salud %PIB": "0,15%",
-      "G. Público Salud Per Capita": "4,00",
+      "G. Público Salud Per Cápita": "4,00",
       "Var.": [
          "-59,99%",
          "0,55%"
@@ -397,7 +397,7 @@ const datos =   [
       "Gasto Salud (M.€)": "49.726.639.000,0",
       "G. Salud (%G. Público Total)": "15,19%",
       "G. Salud %PIB": "8,10%",
-      "G. Público Salud Per Capita": "4.208,00",
+      "G. Público Salud Per Cápita": "4.208,00",
       "Var.": [
          "4,68%",
          "0,86%"
@@ -414,7 +414,7 @@ const datos =   [
       "Gasto Salud (M.€)": "487,9",
       "G. Salud (%G. Público Total)": "8,40%",
       "G. Salud %PIB": "2,72%",
-      "G. Público Salud Per Capita": "22,00",
+      "G. Público Salud Per Cápita": "22,00",
       "Var.": [
          "-6,84%",
          "0,65%"
@@ -431,7 +431,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.726.292.565,7",
       "G. Salud (%G. Público Total)": "11,59%",
       "G. Salud %PIB": "4,99%",
-      "G. Público Salud Per Capita": "733,00",
+      "G. Público Salud Per Cápita": "733,00",
       "Var.": [
          "-6,23%",
          "2,16%"
@@ -448,7 +448,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.049,9",
       "G. Salud (%G. Público Total)": "8,64%",
       "G. Salud %PIB": "2,49%",
-      "G. Público Salud Per Capita": "685,00",
+      "G. Público Salud Per Cápita": "685,00",
       "Var.": [
          "-3,90%",
          "0,36%"
@@ -465,7 +465,7 @@ const datos =   [
       "Gasto Salud (M.€)": "59,0",
       "G. Salud (%G. Público Total)": "4,73%",
       "G. Salud %PIB": "1,59%",
-      "G. Público Salud Per Capita": "4,00",
+      "G. Público Salud Per Cápita": "4,00",
       "Var.": [
          "-18,84%",
          "1,22%"
@@ -482,7 +482,7 @@ const datos =   [
       "Gasto Salud (M.€)": "85,2",
       "G. Salud (%G. Público Total)": "2,60%",
       "G. Salud %PIB": "0,52%",
-      "G. Público Salud Per Capita": "6,00",
+      "G. Público Salud Per Cápita": "6,00",
       "Var.": [
          "55,51%",
          "0,49%"
@@ -499,7 +499,7 @@ const datos =   [
       "Gasto Salud (M.€)": "266,1",
       "G. Salud (%G. Público Total)": "6,36%",
       "G. Salud %PIB": "1,68%",
-      "G. Público Salud Per Capita": "584,00",
+      "G. Público Salud Per Cápita": "584,00",
       "Var.": [
          "-0,73%",
          "3,31%"
@@ -516,7 +516,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.477,1",
       "G. Salud (%G. Público Total)": "16,35%",
       "G. Salud %PIB": "5,89%",
-      "G. Público Salud Per Capita": "205,00",
+      "G. Público Salud Per Cápita": "205,00",
       "Var.": [
          "7,70%",
          "1,70%"
@@ -533,7 +533,7 @@ const datos =   [
       "Gasto Salud (M.€)": "78.938.333.241,4",
       "G. Salud (%G. Público Total)": "9,00%",
       "G. Salud %PIB": "4,26%",
-      "G. Público Salud Per Capita": "367,00",
+      "G. Público Salud Per Cápita": "367,00",
       "Var.": [
          "10,96%",
          "1,30%"
@@ -550,7 +550,7 @@ const datos =   [
       "Gasto Salud (M.€)": "498,3",
       "G. Salud (%G. Público Total)": "15,77%",
       "G. Salud %PIB": "4,07%",
-      "G. Público Salud Per Capita": "1.253,00",
+      "G. Público Salud Per Cápita": "1.253,00",
       "Var.": [
          "19,75%",
          "0,08%"
@@ -567,7 +567,7 @@ const datos =   [
       "Gasto Salud (M.€)": "56,1",
       "G. Salud (%G. Público Total)": "6,69%",
       "G. Salud %PIB": "2,15%",
-      "G. Público Salud Per Capita": "72,00",
+      "G. Público Salud Per Cápita": "72,00",
       "Var.": [
          "9,04%",
          "0,30%"
@@ -584,7 +584,7 @@ const datos =   [
       "Gasto Salud (M.€)": "833,5",
       "G. Salud (%G. Público Total)": "14,62%",
       "G. Salud %PIB": "4,30%",
-      "G. Público Salud Per Capita": "342,00",
+      "G. Público Salud Per Cápita": "342,00",
       "Var.": [
          "-4,82%",
          "0,60%"
@@ -601,7 +601,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.113,3",
       "G. Salud (%G. Público Total)": "12,28%",
       "G. Salud %PIB": "4,50%",
-      "G. Público Salud Per Capita": "339,00",
+      "G. Público Salud Per Cápita": "339,00",
       "Var.": [
          "-0,53%",
          "0,11%"
@@ -618,7 +618,7 @@ const datos =   [
       "Gasto Salud (M.€)": "70,7",
       "G. Salud (%G. Público Total)": "11,48%",
       "G. Salud %PIB": "2,64%",
-      "G. Público Salud Per Capita": "176,00",
+      "G. Público Salud Per Cápita": "176,00",
       "Var.": [
          "-14,18%",
          "1,91%"
@@ -635,7 +635,7 @@ const datos =   [
       "Gasto Salud (M.€)": "164.385.972.701,1",
       "G. Salud (%G. Público Total)": "18,64%",
       "G. Salud %PIB": "7,93%",
-      "G. Público Salud Per Capita": "3.981,00",
+      "G. Público Salud Per Cápita": "3.981,00",
       "Var.": [
          "-3,27%",
          "0,49%"
@@ -652,7 +652,7 @@ const datos =   [
       "Gasto Salud (M.€)": "435,9",
       "G. Salud (%G. Público Total)": "3,98%",
       "G. Salud %PIB": "0,70%",
-      "G. Público Salud Per Capita": "4,00",
+      "G. Público Salud Per Cápita": "4,00",
       "Var.": [
          "23,85%",
          "1,50%"
@@ -669,7 +669,7 @@ const datos =   [
       "Gasto Salud (M.€)": "37,1",
       "G. Salud (%G. Público Total)": "9,03%",
       "G. Salud %PIB": "1,59%",
-      "G. Público Salud Per Capita": "7,00",
+      "G. Público Salud Per Cápita": "7,00",
       "Var.": [
          "20,01%",
          "205,07%"
@@ -686,7 +686,7 @@ const datos =   [
       "Gasto Salud (M.€)": "106,6",
       "G. Salud (%G. Público Total)": "3,53%",
       "G. Salud %PIB": "0,81%",
-      "G. Público Salud Per Capita": "18,00",
+      "G. Público Salud Per Cápita": "18,00",
       "Var.": [
          "-52,40%",
          "1,19%"
@@ -703,7 +703,7 @@ const datos =   [
       "Gasto Salud (M.€)": "69.255.025.560,8",
       "G. Salud (%G. Público Total)": "12,41%",
       "G. Salud %PIB": "8,00%",
-      "G. Público Salud Per Capita": "7.727,00",
+      "G. Público Salud Per Cápita": "7.727,00",
       "Var.": [
          "-5,06%",
          "0,72%"
@@ -720,7 +720,7 @@ const datos =   [
       "Gasto Salud (M.€)": "913,9",
       "G. Salud (%G. Público Total)": "6,21%",
       "G. Salud %PIB": "1,34%",
-      "G. Público Salud Per Capita": "30,00",
+      "G. Público Salud Per Cápita": "30,00",
       "Var.": [
          "-18,92%",
          "0,62%"
@@ -737,7 +737,7 @@ const datos =   [
       "Gasto Salud (M.€)": "17.713.721.087,0",
       "G. Salud (%G. Público Total)": "18,81%",
       "G. Salud %PIB": "5,80%",
-      "G. Público Salud Per Capita": "882,00",
+      "G. Público Salud Per Cápita": "882,00",
       "Var.": [
          "10,50%",
          "2,51%"
@@ -754,7 +754,7 @@ const datos =   [
       "Gasto Salud (M.€)": "283,1",
       "G. Salud (%G. Público Total)": "3,94%",
       "G. Salud %PIB": "0,67%",
-      "G. Público Salud Per Capita": "10,00",
+      "G. Público Salud Per Cápita": "10,00",
       "Var.": [
          "32,08%",
          "2,01%"
@@ -771,7 +771,7 @@ const datos =   [
       "Gasto Salud (M.€)": "22.711.029.540,9",
       "G. Salud (%G. Público Total)": "15,42%",
       "G. Salud %PIB": "6,19%",
-      "G. Público Salud Per Capita": "455,00",
+      "G. Público Salud Per Cápita": "455,00",
       "Var.": [
          "5,42%",
          "1,59%"
@@ -788,7 +788,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.369.547.684,0",
       "G. Salud (%G. Público Total)": "25,82%",
       "G. Salud %PIB": "4,97%",
-      "G. Público Salud Per Capita": "836,00",
+      "G. Público Salud Per Cápita": "836,00",
       "Var.": [
          "7,49%",
          "1,87%"
@@ -805,7 +805,7 @@ const datos =   [
       "Gasto Salud (M.€)": "58.215,7",
       "G. Salud (%G. Público Total)": "21,04%",
       "G. Salud %PIB": "10,47%",
-      "G. Público Salud Per Capita": "5.234,00",
+      "G. Público Salud Per Cápita": "5.234,00",
       "Var.": [
          "467,05%",
          "0,59%"
@@ -822,7 +822,7 @@ const datos =   [
       "Gasto Salud (M.€)": "90,6",
       "G. Salud (%G. Público Total)": "16,06%",
       "G. Salud %PIB": "4,28%",
-      "G. Público Salud Per Capita": "174,00",
+      "G. Público Salud Per Cápita": "174,00",
       "Var.": [
          "-12,20%",
          "0,20%"
@@ -839,7 +839,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.955.336.000,0",
       "G. Salud (%G. Público Total)": "18,31%",
       "G. Salud %PIB": "6,24%",
-      "G. Público Salud Per Capita": "2.042,00",
+      "G. Público Salud Per Cápita": "2.042,00",
       "Var.": [
          "-3,81%",
          "1,59%"
@@ -856,7 +856,7 @@ const datos =   [
       "Gasto Salud (M.€)": "23.075.940.095,1",
       "G. Salud (%G. Público Total)": "16,73%",
       "G. Salud %PIB": "7,24%",
-      "G. Público Salud Per Capita": "2.117,00",
+      "G. Público Salud Per Cápita": "2.117,00",
       "Var.": [
          "-6,14%",
          "1,14%"
@@ -873,7 +873,7 @@ const datos =   [
       "Gasto Salud (M.€)": "36,5",
       "G. Salud (%G. Público Total)": "5,15%",
       "G. Salud %PIB": "1,03%",
-      "G. Público Salud Per Capita": "32,00",
+      "G. Público Salud Per Cápita": "32,00",
       "Var.": [
          "46,14%",
          "0,68%"
@@ -890,7 +890,7 @@ const datos =   [
       "Gasto Salud (M.€)": "31.093.474.917,9",
       "G. Salud (%G. Público Total)": "17,69%",
       "G. Salud %PIB": "7,83%",
-      "G. Público Salud Per Capita": "5.216,00",
+      "G. Público Salud Per Cápita": "5.216,00",
       "Var.": [
          "-13,83%",
          "0,62%"
@@ -907,7 +907,7 @@ const datos =   [
       "Gasto Salud (M.€)": "26,0",
       "G. Salud (%G. Público Total)": "6,20%",
       "G. Salud %PIB": "4,51%",
-      "G. Público Salud Per Capita": "389,00",
+      "G. Público Salud Per Cápita": "389,00",
       "Var.": [
          "22,92%",
          "0,07%"
@@ -924,7 +924,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.880,4",
       "G. Salud (%G. Público Total)": "14,43%",
       "G. Salud %PIB": "2,67%",
-      "G. Público Salud Per Capita": "256,00",
+      "G. Público Salud Per Cápita": "256,00",
       "Var.": [
          "-3,02%",
          "-0,66%"
@@ -941,7 +941,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.677,6",
       "G. Salud (%G. Público Total)": "5,36%",
       "G. Salud %PIB": "1,72%",
-      "G. Público Salud Per Capita": "81,00",
+      "G. Público Salud Per Cápita": "81,00",
       "Var.": [
          "-28,75%",
          "0,17%"
@@ -958,7 +958,7 @@ const datos =   [
       "Gasto Salud (M.€)": "5.091,6",
       "G. Salud (%G. Público Total)": "11,87%",
       "G. Salud %PIB": "4,60%",
-      "G. Público Salud Per Capita": "286,00",
+      "G. Público Salud Per Cápita": "286,00",
       "Var.": [
          "-4,54%",
          "1,06%"
@@ -975,7 +975,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.290.800.000,0",
       "G. Salud (%G. Público Total)": "13,20%",
       "G. Salud %PIB": "5,80%",
-      "G. Público Salud Per Capita": "1.666,00",
+      "G. Público Salud Per Cápita": "1.666,00",
       "Var.": [
          "5,65%",
          "1,28%"
@@ -992,7 +992,7 @@ const datos =   [
       "Gasto Salud (M.€)": "6.912,9",
       "G. Salud (%G. Público Total)": "7,22%",
       "G. Salud %PIB": "1,78%",
-      "G. Público Salud Per Capita": "61,00",
+      "G. Público Salud Per Cápita": "61,00",
       "Var.": [
          "-2,80%",
          "0,88%"
@@ -1009,7 +1009,7 @@ const datos =   [
       "Gasto Salud (M.€)": "20,4",
       "G. Salud (%G. Público Total)": "2,37%",
       "G. Salud %PIB": "0,90%",
-      "G. Público Salud Per Capita": "6,00",
+      "G. Público Salud Per Cápita": "6,00",
       "Var.": [
          "7,47%",
          "1,23%"
@@ -1026,7 +1026,7 @@ const datos =   [
       "Gasto Salud (M.€)": "810,0",
       "G. Salud (%G. Público Total)": "5,68%",
       "G. Salud %PIB": "0,72%",
-      "G. Público Salud Per Capita": "6,00",
+      "G. Público Salud Per Cápita": "6,00",
       "Var.": [
          "-14,06%",
          "0,62%"
@@ -1043,7 +1043,7 @@ const datos =   [
       "Gasto Salud (M.€)": "23.898.237.000,0",
       "G. Salud (%G. Público Total)": "14,82%",
       "G. Salud %PIB": "8,63%",
-      "G. Público Salud Per Capita": "4.265,00",
+      "G. Público Salud Per Cápita": "4.265,00",
       "Var.": [
          "2,98%",
          "0,49%"
@@ -1060,7 +1060,7 @@ const datos =   [
       "Gasto Salud (M.€)": "707,4",
       "G. Salud (%G. Público Total)": "9,03%",
       "G. Salud %PIB": "2,79%",
-      "G. Público Salud Per Capita": "769,00",
+      "G. Público Salud Per Cápita": "769,00",
       "Var.": [
          "-12,08%",
          "0,25%"
@@ -1077,7 +1077,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4,6",
       "G. Salud (%G. Público Total)": "1,89%",
       "G. Salud %PIB": "1,12%",
-      "G. Público Salud Per Capita": "41,00",
+      "G. Público Salud Per Cápita": "41,00",
       "Var.": [
          "6,18%",
          "0,35%"
@@ -1094,7 +1094,7 @@ const datos =   [
       "Gasto Salud (M.€)": "365,9",
       "G. Salud (%G. Público Total)": "9,59%",
       "G. Salud %PIB": "1,83%",
-      "G. Público Salud Per Capita": "151,00",
+      "G. Público Salud Per Cápita": "151,00",
       "Var.": [
          "17,08%",
          "0,92%"
@@ -1111,7 +1111,7 @@ const datos =   [
       "Gasto Salud (M.€)": "23,4",
       "G. Salud (%G. Público Total)": "6,28%",
       "G. Salud %PIB": "2,00%",
-      "G. Público Salud Per Capita": "200,00",
+      "G. Público Salud Per Cápita": "200,00",
       "Var.": [
          "0,89%",
          "0,07%"
@@ -1128,7 +1128,7 @@ const datos =   [
       "Gasto Salud (M.€)": "699.965.248,6",
       "G. Salud (%G. Público Total)": "10,54%",
       "G. Salud %PIB": "2,96%",
-      "G. Público Salud Per Capita": "191,00",
+      "G. Público Salud Per Cápita": "191,00",
       "Var.": [
          "-8,75%",
          "0"
@@ -1145,7 +1145,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.442,4",
       "G. Salud (%G. Público Total)": "7,41%",
       "G. Salud %PIB": "2,05%",
-      "G. Público Salud Per Capita": "44,00",
+      "G. Público Salud Per Cápita": "44,00",
       "Var.": [
          "-11,11%",
          "0,39%"
@@ -1162,7 +1162,7 @@ const datos =   [
       "Gasto Salud (M.€)": "32,3",
       "G. Salud (%G. Público Total)": "6,83%",
       "G. Salud %PIB": "1,52%",
-      "G. Público Salud Per Capita": "12,00",
+      "G. Público Salud Per Cápita": "12,00",
       "Var.": [
          "0,90%",
          "1,54%"
@@ -1179,7 +1179,7 @@ const datos =   [
       "Gasto Salud (M.€)": "135,3",
       "G. Salud (%G. Público Total)": "5,02%",
       "G. Salud %PIB": "0,73%",
-      "G. Público Salud Per Capita": "10,00",
+      "G. Público Salud Per Cápita": "10,00",
       "Var.": [
          "25,44%",
          "0,51%"
@@ -1196,7 +1196,7 @@ const datos =   [
       "Gasto Salud (M.€)": "85,5",
       "G. Salud (%G. Público Total)": "4,45%",
       "G. Salud %PIB": "0,76%",
-      "G. Público Salud Per Capita": "47,00",
+      "G. Público Salud Per Cápita": "47,00",
       "Var.": [
          "5,49%",
          "0,56%"
@@ -1213,7 +1213,7 @@ const datos =   [
       "Gasto Salud (M.€)": "11.504.012.000,0",
       "G. Salud (%G. Público Total)": "8,65%",
       "G. Salud %PIB": "4,84%",
-      "G. Público Salud Per Capita": "1.106,00",
+      "G. Público Salud Per Cápita": "1.106,00",
       "Var.": [
          "0,15%",
          "1,24%"
@@ -1230,7 +1230,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.189,0",
       "G. Salud (%G. Público Total)": "16,89%",
       "G. Salud %PIB": "2,43%",
-      "G. Público Salud Per Capita": "123,00",
+      "G. Público Salud Per Cápita": "123,00",
       "Var.": [
          "12,11%",
          "1,96%"
@@ -1247,7 +1247,7 @@ const datos =   [
       "Gasto Salud (M.€)": "17,9",
       "G. Salud (%G. Público Total)": "5,16%",
       "G. Salud %PIB": "1,10%",
-      "G. Público Salud Per Capita": "9,00",
+      "G. Público Salud Per Cápita": "9,00",
       "Var.": [
          "-5,96%",
          "0,75%"
@@ -1264,7 +1264,7 @@ const datos =   [
       "Gasto Salud (M.€)": "297,4",
       "G. Salud (%G. Público Total)": "10,49%",
       "G. Salud %PIB": "2,16%",
-      "G. Público Salud Per Capita": "362,00",
+      "G. Público Salud Per Cápita": "362,00",
       "Var.": [
          "20,95%",
          "0,42%"
@@ -1281,7 +1281,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.016,2",
       "G. Salud (%G. Público Total)": "14,16%",
       "G. Salud %PIB": "3,37%",
-      "G. Público Salud Per Capita": "97,00",
+      "G. Público Salud Per Cápita": "97,00",
       "Var.": [
          "7,47%",
          "0,23%"
@@ -1298,7 +1298,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.738.623.000,0",
       "G. Salud (%G. Público Total)": "13,73%",
       "G. Salud %PIB": "6,07%",
-      "G. Público Salud Per Capita": "1.229,00",
+      "G. Público Salud Per Cápita": "1.229,00",
       "Var.": [
          "17,03%",
          "1,16%"
@@ -1315,7 +1315,7 @@ const datos =   [
       "Gasto Salud (M.€)": "60,9",
       "G. Salud (%G. Público Total)": "4,11%",
       "G. Salud %PIB": "0,34%",
-      "G. Público Salud Per Capita": "5,00",
+      "G. Público Salud Per Cápita": "5,00",
       "Var.": [
          "-14,17%",
          "1,55%"
@@ -1332,7 +1332,7 @@ const datos =   [
       "Gasto Salud (M.€)": "9.810.578.641,7",
       "G. Salud (%G. Público Total)": "9,91%",
       "G. Salud %PIB": "4,76%",
-      "G. Público Salud Per Capita": "1.024,00",
+      "G. Público Salud Per Cápita": "1.024,00",
       "Var.": [
          "-11,23%",
          "0,92%"
@@ -1349,7 +1349,7 @@ const datos =   [
       "Gasto Salud (M.€)": "6.068.101.084,9",
       "G. Salud (%G. Público Total)": "8,03%",
       "G. Salud %PIB": "1,45%",
-      "G. Público Salud Per Capita": "66,00",
+      "G. Público Salud Per Cápita": "66,00",
       "Var.": [
          "-30,12%",
          "0,31%"
@@ -1366,7 +1366,7 @@ const datos =   [
       "Gasto Salud (M.€)": "28.394.647.000,0",
       "G. Salud (%G. Público Total)": "22,33%",
       "G. Salud %PIB": "5,32%",
-      "G. Público Salud Per Capita": "5.306,00",
+      "G. Público Salud Per Cápita": "5.306,00",
       "Var.": [
          "9,84%",
          "0,36%"
@@ -1383,7 +1383,7 @@ const datos =   [
       "Gasto Salud (M.€)": "25.997.048.693,4",
       "G. Salud (%G. Público Total)": "13,01%",
       "G. Salud %PIB": "5,21%",
-      "G. Público Salud Per Capita": "2.678,00",
+      "G. Público Salud Per Cápita": "2.678,00",
       "Var.": [
          "-0,46%",
          "0,60%"
@@ -1400,7 +1400,7 @@ const datos =   [
       "Gasto Salud (M.€)": "42.874.548.571,5",
       "G. Salud (%G. Público Total)": "4,46%",
       "G. Salud %PIB": "1,32%",
-      "G. Público Salud Per Capita": "30,00",
+      "G. Público Salud Per Cápita": "30,00",
       "Var.": [
          "1,89%",
          "0,43%"
@@ -1417,7 +1417,7 @@ const datos =   [
       "Gasto Salud (M.€)": "5.423,3",
       "G. Salud (%G. Público Total)": "5,84%",
       "G. Salud %PIB": "2,18%",
-      "G. Público Salud Per Capita": "123,00",
+      "G. Público Salud Per Cápita": "123,00",
       "Var.": [
          "4,38%",
          "0,40%"
@@ -1434,7 +1434,7 @@ const datos =   [
       "Gasto Salud (M.€)": "60.535,8",
       "G. Salud (%G. Público Total)": "19,03%",
       "G. Salud %PIB": "2,63%",
-      "G. Público Salud Per Capita": "676,00",
+      "G. Público Salud Per Cápita": "676,00",
       "Var.": [
          "-9,43%",
          "1,11%"
@@ -1451,7 +1451,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.318.346.769,3",
       "G. Salud (%G. Público Total)": "16,54%",
       "G. Salud %PIB": "7,50%",
-      "G. Público Salud Per Capita": "6.044,00",
+      "G. Público Salud Per Cápita": "6.044,00",
       "Var.": [
          "3,02%",
          "0,37%"
@@ -1468,7 +1468,7 @@ const datos =   [
       "Gasto Salud (M.€)": "962,5",
       "G. Salud (%G. Público Total)": "18,96%",
       "G. Salud %PIB": "5,93%",
-      "G. Público Salud Per Capita": "339,00",
+      "G. Público Salud Per Cápita": "339,00",
       "Var.": [
          "35,10%",
          "0,00%"
@@ -1485,7 +1485,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1,2",
       "G. Salud (%G. Público Total)": "7,64%",
       "G. Salud %PIB": "2,49%",
-      "G. Público Salud Per Capita": "0,00",
+      "G. Público Salud Per Cápita": "0,00",
       "Var.": [
          "0,49%",
          "0,94%"
@@ -1502,7 +1502,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.176,7",
       "G. Salud (%G. Público Total)": "8,65%",
       "G. Salud %PIB": "2,02%",
-      "G. Público Salud Per Capita": "40,00",
+      "G. Público Salud Per Cápita": "40,00",
       "Var.": [
          "-8,02%",
          "0,15%"
@@ -1519,7 +1519,7 @@ const datos =   [
       "Gasto Salud (M.€)": "303,9",
       "G. Salud (%G. Público Total)": "7,55%",
       "G. Salud %PIB": "2,64%",
-      "G. Público Salud Per Capita": "44,00",
+      "G. Público Salud Per Cápita": "44,00",
       "Var.": [
          "14,94%",
          "0,28%"
@@ -1536,7 +1536,7 @@ const datos =   [
       "Gasto Salud (M.€)": "446,9",
       "G. Salud (%G. Público Total)": "6,99%",
       "G. Salud %PIB": "1,17%",
-      "G. Público Salud Per Capita": "26,00",
+      "G. Público Salud Per Cápita": "26,00",
       "Var.": [
          "-14,28%",
          "0,20%"
@@ -1553,7 +1553,7 @@ const datos =   [
       "Gasto Salud (M.€)": "21,8",
       "G. Salud (%G. Público Total)": "9,71%",
       "G. Salud %PIB": "8,49%",
-      "G. Público Salud Per Capita": "167,00",
+      "G. Público Salud Per Cápita": "167,00",
       "Var.": [
          "-10,74%",
          "0,31%"
@@ -1570,7 +1570,7 @@ const datos =   [
       "Gasto Salud (M.€)": "10,1",
       "G. Salud (%G. Público Total)": "4,74%",
       "G. Salud %PIB": "0,87%",
-      "G. Público Salud Per Capita": "12,00",
+      "G. Público Salud Per Cápita": "12,00",
       "Var.": [
          "-13,57%",
          "0,45%"
@@ -1587,7 +1587,7 @@ const datos =   [
       "Gasto Salud (M.€)": "27,1",
       "G. Salud (%G. Público Total)": "5,91%",
       "G. Salud %PIB": "2,93%",
-      "G. Público Salud Per Capita": "580,00",
+      "G. Público Salud Per Cápita": "580,00",
       "Var.": [
          "-6,37%",
          "2,61%"
@@ -1604,7 +1604,7 @@ const datos =   [
       "Gasto Salud (M.€)": "288,2",
       "G. Salud (%G. Público Total)": "",
       "G. Salud %PIB": "2,99%",
-      "G. Público Salud Per Capita": "12,00",
+      "G. Público Salud Per Cápita": "12,00",
       "Var.": [
          "-0,76%",
          "0,00%"
@@ -1621,7 +1621,7 @@ const datos =   [
       "Gasto Salud (M.€)": "67.778.041.283,7",
       "G. Salud (%G. Público Total)": "16,76%",
       "G. Salud %PIB": "5,01%",
-      "G. Público Salud Per Capita": "1.674,00",
+      "G. Público Salud Per Cápita": "1.674,00",
       "Var.": [
          "5,79%",
          "0,97%"
@@ -1638,7 +1638,7 @@ const datos =   [
       "Gasto Salud (M.€)": "6.465,0",
       "G. Salud (%G. Público Total)": "9,40%",
       "G. Salud %PIB": "3,72%",
-      "G. Público Salud Per Capita": "1.409,00",
+      "G. Público Salud Per Cápita": "1.409,00",
       "Var.": [
          "-8,83%",
          "3,23%"
@@ -1655,7 +1655,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.921,3",
       "G. Salud (%G. Público Total)": "10,60%",
       "G. Salud %PIB": "2,30%",
-      "G. Público Salud Per Capita": "246,00",
+      "G. Público Salud Per Cápita": "246,00",
       "Var.": [
          "1,20%",
          "1,22%"
@@ -1672,7 +1672,7 @@ const datos =   [
       "Gasto Salud (M.€)": "90,7",
       "G. Salud (%G. Público Total)": "4,25%",
       "G. Salud %PIB": "0,63%",
-      "G. Público Salud Per Capita": "12,00",
+      "G. Público Salud Per Cápita": "12,00",
       "Var.": [
          "-28,64%",
          "0,36%"
@@ -1689,7 +1689,7 @@ const datos =   [
       "Gasto Salud (M.€)": "6.792,2",
       "G. Salud (%G. Público Total)": "15,50%",
       "G. Salud %PIB": "1,96%",
-      "G. Público Salud Per Capita": "1.182,00",
+      "G. Público Salud Per Cápita": "1.182,00",
       "Var.": [
          "49,38%",
          "-0,24%"
@@ -1706,7 +1706,7 @@ const datos =   [
       "Gasto Salud (M.€)": "46,5",
       "G. Salud (%G. Público Total)": "9,00%",
       "G. Salud %PIB": "2,13%",
-      "G. Público Salud Per Capita": "260,00",
+      "G. Público Salud Per Cápita": "260,00",
       "Var.": [
          "9,85%",
          "0,04%"
@@ -1723,7 +1723,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.271,1",
       "G. Salud (%G. Público Total)": "9,49%",
       "G. Salud %PIB": "1,76%",
-      "G. Público Salud Per Capita": "56,00",
+      "G. Público Salud Per Cápita": "56,00",
       "Var.": [
          "-20,83%",
          "0,24%"
@@ -1740,7 +1740,7 @@ const datos =   [
       "Gasto Salud (M.€)": "48,7",
       "G. Salud (%G. Público Total)": "4,79%",
       "G. Salud %PIB": "1,29%",
-      "G. Público Salud Per Capita": "9,00",
+      "G. Público Salud Per Cápita": "9,00",
       "Var.": [
          "28,73%",
          "0,37%"
@@ -1757,7 +1757,7 @@ const datos =   [
       "Gasto Salud (M.€)": "147,0",
       "G. Salud (%G. Público Total)": "13,12%",
       "G. Salud %PIB": "6,41%",
-      "G. Público Salud Per Capita": "64,00",
+      "G. Público Salud Per Cápita": "64,00",
       "Var.": [
          "42,22%",
          "0,99%"
@@ -1774,7 +1774,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.635.484.000,0",
       "G. Salud (%G. Público Total)": "13,03%",
       "G. Salud %PIB": "4,64%",
-      "G. Público Salud Per Capita": "1.260,00",
+      "G. Público Salud Per Cápita": "1.260,00",
       "Var.": [
          "-0,40%",
          "2,37%"
@@ -1791,7 +1791,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.351.654.000,0",
       "G. Salud (%G. Público Total)": "10,48%",
       "G. Salud %PIB": "5,05%",
-      "G. Público Salud Per Capita": "6.475,00",
+      "G. Público Salud Per Cápita": "6.475,00",
       "Var.": [
          "7,16%",
          "0,48%"
@@ -1808,7 +1808,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.847.488.000,0",
       "G. Salud (%G. Público Total)": "12,06%",
       "G. Salud %PIB": "4,60%",
-      "G. Público Salud Per Capita": "987,00",
+      "G. Público Salud Per Cápita": "987,00",
       "Var.": [
          "9,70%",
          "1,48%"
@@ -1825,7 +1825,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.293,1",
       "G. Salud (%G. Público Total)": "5,06%",
       "G. Salud %PIB": "3,15%",
-      "G. Público Salud Per Capita": "179,00",
+      "G. Público Salud Per Cápita": "179,00",
       "Var.": [
          "-14,61%",
          "-6,88%"
@@ -1842,7 +1842,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.893,0",
       "G. Salud (%G. Público Total)": "6,82%",
       "G. Salud %PIB": "2,32%",
-      "G. Público Salud Per Capita": "78,00",
+      "G. Público Salud Per Cápita": "78,00",
       "Var.": [
          "-5,99%",
          "0,20%"
@@ -1859,7 +1859,7 @@ const datos =   [
       "Gasto Salud (M.€)": "245,6",
       "G. Salud (%G. Público Total)": "12,04%",
       "G. Salud %PIB": "2,94%",
-      "G. Público Salud Per Capita": "6.309,00",
+      "G. Público Salud Per Cápita": "6.309,00",
       "Var.": [
          "-10,11%",
          "0,73%"
@@ -1876,7 +1876,7 @@ const datos =   [
       "Gasto Salud (M.€)": "622,8",
       "G. Salud (%G. Público Total)": "12,35%",
       "G. Salud %PIB": "4,52%",
-      "G. Público Salud Per Capita": "245,00",
+      "G. Público Salud Per Cápita": "245,00",
       "Var.": [
          "-3,55%",
          "0,49%"
@@ -1893,7 +1893,7 @@ const datos =   [
       "Gasto Salud (M.€)": "407,5",
       "G. Salud (%G. Público Total)": "16,25%",
       "G. Salud %PIB": "6,88%",
-      "G. Público Salud Per Capita": "663,00",
+      "G. Público Salud Per Cápita": "663,00",
       "Var.": [
          "11,26%",
          "1,85%"
@@ -1910,7 +1910,7 @@ const datos =   [
       "Gasto Salud (M.€)": "135,9",
       "G. Salud (%G. Público Total)": "5,74%",
       "G. Salud %PIB": "0,94%",
-      "G. Público Salud Per Capita": "4,00",
+      "G. Público Salud Per Cápita": "4,00",
       "Var.": [
          "30,16%",
          "0,89%"
@@ -1927,7 +1927,7 @@ const datos =   [
       "Gasto Salud (M.€)": "10,9",
       "G. Salud (%G. Público Total)": "6,65%",
       "G. Salud %PIB": "4,42%",
-      "G. Público Salud Per Capita": "271,00",
+      "G. Público Salud Per Cápita": "271,00",
       "Var.": [
          "-12,44%",
          "0,33%"
@@ -1944,7 +1944,7 @@ const datos =   [
       "Gasto Salud (M.€)": "558,4",
       "G. Salud (%G. Público Total)": "12,36%",
       "G. Salud %PIB": "4,33%",
-      "G. Público Salud Per Capita": "303,00",
+      "G. Público Salud Per Cápita": "303,00",
       "Var.": [
          "-7,90%",
          "1,20%"
@@ -1961,7 +1961,7 @@ const datos =   [
       "Gasto Salud (M.€)": "253,8",
       "G. Salud (%G. Público Total)": "5,69%",
       "G. Salud %PIB": "1,43%",
-      "G. Público Salud Per Capita": "11,00",
+      "G. Público Salud Per Cápita": "11,00",
       "Var.": [
          "-0,92%",
          "0,67%"
@@ -1978,7 +1978,7 @@ const datos =   [
       "Gasto Salud (M.€)": "325,8",
       "G. Salud (%G. Público Total)": "2,55%",
       "G. Salud %PIB": "0,58%",
-      "G. Público Salud Per Capita": "6,00",
+      "G. Público Salud Per Cápita": "6,00",
       "Var.": [
          "-45,79%",
          "0,58%"
@@ -1995,7 +1995,7 @@ const datos =   [
       "Gasto Salud (M.€)": "508,7",
       "G. Salud (%G. Público Total)": "9,25%",
       "G. Salud %PIB": "3,12%",
-      "G. Público Salud Per Capita": "150,00",
+      "G. Público Salud Per Cápita": "150,00",
       "Var.": [
          "-18,06%",
          "0,31%"
@@ -2012,7 +2012,7 @@ const datos =   [
       "Gasto Salud (M.€)": "163,6",
       "G. Salud (%G. Público Total)": "6,28%",
       "G. Salud %PIB": "1,76%",
-      "G. Público Salud Per Capita": "34,00",
+      "G. Público Salud Per Cápita": "34,00",
       "Var.": [
          "21,70%",
          "0,30%"
@@ -2029,7 +2029,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.112.994.000,0",
       "G. Salud (%G. Público Total)": "16,21%",
       "G. Salud %PIB": "6,58%",
-      "G. Público Salud Per Capita": "2.096,00",
+      "G. Público Salud Per Cápita": "2.096,00",
       "Var.": [
          "-8,42%",
          "1,34%"
@@ -2046,7 +2046,7 @@ const datos =   [
       "Gasto Salud (M.€)": "337,9",
       "G. Salud (%G. Público Total)": "9,39%",
       "G. Salud %PIB": "2,75%",
-      "G. Público Salud Per Capita": "265,00",
+      "G. Público Salud Per Cápita": "265,00",
       "Var.": [
          "-7,53%",
          "-0,14%"
@@ -2063,7 +2063,7 @@ const datos =   [
       "Gasto Salud (M.€)": "447,6",
       "G. Salud (%G. Público Total)": "18,17%",
       "G. Salud %PIB": "7,54%",
-      "G. Público Salud Per Capita": "854,00",
+      "G. Público Salud Per Cápita": "854,00",
       "Var.": [
          "19,69%",
          "0,35%"
@@ -2080,7 +2080,7 @@ const datos =   [
       "Gasto Salud (M.€)": "104,6",
       "G. Salud (%G. Público Total)": "3,29%",
       "G. Salud %PIB": "0,88%",
-      "G. Público Salud Per Capita": "5,00",
+      "G. Público Salud Per Cápita": "5,00",
       "Var.": [
          "-36,95%",
          "1,99%"
@@ -2097,7 +2097,7 @@ const datos =   [
       "Gasto Salud (M.€)": "51.801.498.735,8",
       "G. Salud (%G. Público Total)": "10,39%",
       "G. Salud %PIB": "3,03%",
-      "G. Público Salud Per Capita": "392,00",
+      "G. Público Salud Per Cápita": "392,00",
       "Var.": [
          "11,25%",
          "1,48%"
@@ -2114,7 +2114,7 @@ const datos =   [
       "Gasto Salud (M.€)": "7.648,6",
       "G. Salud (%G. Público Total)": "8,01%",
       "G. Salud %PIB": "1,98%",
-      "G. Público Salud Per Capita": "220,00",
+      "G. Público Salud Per Cápita": "220,00",
       "Var.": [
          "-13,54%",
          "1,61%"
@@ -2131,7 +2131,7 @@ const datos =   [
       "Gasto Salud (M.€)": "473,0",
       "G. Salud (%G. Público Total)": "8,04%",
       "G. Salud %PIB": "2,71%",
-      "G. Público Salud Per Capita": "14,00",
+      "G. Público Salud Per Cápita": "14,00",
       "Var.": [
          "19,24%",
          "0,95%"
@@ -2148,7 +2148,7 @@ const datos =   [
       "Gasto Salud (M.€)": "508,6",
       "G. Salud (%G. Público Total)": "11,74%",
       "G. Salud %PIB": "4,24%",
-      "G. Público Salud Per Capita": "176,00",
+      "G. Público Salud Per Cápita": "176,00",
       "Var.": [
          "-5,09%",
          "4,98%"
@@ -2165,7 +2165,7 @@ const datos =   [
       "Gasto Salud (M.€)": "224,8",
       "G. Salud (%G. Público Total)": "7,11%",
       "G. Salud %PIB": "1,54%",
-      "G. Público Salud Per Capita": "9,00",
+      "G. Público Salud Per Cápita": "9,00",
       "Var.": [
          "-27,59%",
          "1,30%"
@@ -2182,7 +2182,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.810,2",
       "G. Salud (%G. Público Total)": "4,31%",
       "G. Salud %PIB": "0,62%",
-      "G. Público Salud Per Capita": "13,00",
+      "G. Público Salud Per Cápita": "13,00",
       "Var.": [
          "21,34%",
          "0,71%"
@@ -2199,7 +2199,7 @@ const datos =   [
       "Gasto Salud (M.€)": "767,8",
       "G. Salud (%G. Público Total)": "17,83%",
       "G. Salud %PIB": "5,16%",
-      "G. Público Salud Per Capita": "114,00",
+      "G. Público Salud Per Cápita": "114,00",
       "Var.": [
          "-7,22%",
          "0,65%"
@@ -2216,7 +2216,7 @@ const datos =   [
       "Gasto Salud (M.€)": "94.379.000.000,0",
       "G. Salud (%G. Público Total)": "15,92%",
       "G. Salud %PIB": "8,32%",
-      "G. Público Salud Per Capita": "5.260,00",
+      "G. Público Salud Per Cápita": "5.260,00",
       "Var.": [
          "8,45%",
          "0,24%"
@@ -2233,7 +2233,7 @@ const datos =   [
       "Gasto Salud (M.€)": "37.248.508.861,0",
       "G. Salud (%G. Público Total)": "17,75%",
       "G. Salud %PIB": "8,33%",
-      "G. Público Salud Per Capita": "6.711,00",
+      "G. Público Salud Per Cápita": "6.711,00",
       "Var.": [
          "-5,38%",
          "0,73%"
@@ -2250,7 +2250,7 @@ const datos =   [
       "Gasto Salud (M.€)": "788,1",
       "G. Salud (%G. Público Total)": "8,01%",
       "G. Salud %PIB": "2,11%",
-      "G. Público Salud Per Capita": "27,00",
+      "G. Público Salud Per Cápita": "27,00",
       "Var.": [
          "26,42%",
          "0,38%"
@@ -2267,7 +2267,7 @@ const datos =   [
       "Gasto Salud (M.€)": "22,1",
       "G. Salud (%G. Público Total)": "11,83%",
       "G. Salud %PIB": "15,79%",
-      "G. Público Salud Per Capita": "1.870,00",
+      "G. Público Salud Per Cápita": "1.870,00",
       "Var.": [
          "38,66%",
          "0,29%"
@@ -2284,7 +2284,7 @@ const datos =   [
       "Gasto Salud (M.€)": "21.439.557.059,4",
       "G. Salud (%G. Público Total)": "19,75%",
       "G. Salud %PIB": "8,90%",
-      "G. Público Salud Per Capita": "4.053,00",
+      "G. Público Salud Per Cápita": "4.053,00",
       "Var.": [
          "1,81%",
          "1,28%"
@@ -2301,7 +2301,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.679,6",
       "G. Salud (%G. Público Total)": "8,31%",
       "G. Salud %PIB": "2,46%",
-      "G. Público Salud Per Capita": "566,00",
+      "G. Público Salud Per Cápita": "566,00",
       "Var.": [
          "-20,12%",
          "2,72%"
@@ -2318,7 +2318,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.457,5",
       "G. Salud (%G. Público Total)": "22,23%",
       "G. Salud %PIB": "4,76%",
-      "G. Público Salud Per Capita": "786,00",
+      "G. Público Salud Per Cápita": "786,00",
       "Var.": [
          "5,08%",
          "0,34%"
@@ -2335,7 +2335,7 @@ const datos =   [
       "Gasto Salud (M.€)": "9.083.138.725,2",
       "G. Salud (%G. Público Total)": "16,70%",
       "G. Salud %PIB": "3,91%",
-      "G. Público Salud Per Capita": "271,00",
+      "G. Público Salud Per Cápita": "271,00",
       "Var.": [
          "-6,10%",
          "1,18%"
@@ -2352,7 +2352,7 @@ const datos =   [
       "Gasto Salud (M.€)": "459,6",
       "G. Salud (%G. Público Total)": "6,99%",
       "G. Salud %PIB": "1,53%",
-      "G. Público Salud Per Capita": "45,00",
+      "G. Público Salud Per Cápita": "45,00",
       "Var.": [
          "55,56%",
          "1,32%"
@@ -2369,7 +2369,7 @@ const datos =   [
       "Gasto Salud (M.€)": "8.739,6",
       "G. Salud (%G. Público Total)": "8,59%",
       "G. Salud %PIB": "2,16%",
-      "G. Público Salud Per Capita": "76,00",
+      "G. Público Salud Per Cápita": "76,00",
       "Var.": [
          "-0,21%",
          "0,52%"
@@ -2386,7 +2386,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.434,5",
       "G. Salud (%G. Público Total)": "5,55%",
       "G. Salud %PIB": "1,11%",
-      "G. Público Salud Per Capita": "14,00",
+      "G. Público Salud Per Cápita": "14,00",
       "Var.": [
          "-7,04%",
          "0,34%"
@@ -2403,7 +2403,7 @@ const datos =   [
       "Gasto Salud (M.€)": "53.202.549.816,5",
       "G. Salud (%G. Público Total)": "10,71%",
       "G. Salud %PIB": "6,29%",
-      "G. Público Salud Per Capita": "1.453,00",
+      "G. Público Salud Per Cápita": "1.453,00",
       "Var.": [
          "2,41%",
          "1,55%"
@@ -2420,7 +2420,7 @@ const datos =   [
       "Gasto Salud (M.€)": "212,3",
       "G. Salud (%G. Público Total)": "13,48%",
       "G. Salud %PIB": "3,93%",
-      "G. Público Salud Per Capita": "40,00",
+      "G. Público Salud Per Cápita": "40,00",
       "Var.": [
          "-5,07%",
          "-14,99%"
@@ -2437,7 +2437,7 @@ const datos =   [
       "Gasto Salud (M.€)": "13,5",
       "G. Salud (%G. Público Total)": "9,51%",
       "G. Salud %PIB": "5,80%",
-      "G. Público Salud Per Capita": "763,00",
+      "G. Público Salud Per Cápita": "763,00",
       "Var.": [
          "-1,18%",
          "0,50%"
@@ -2454,7 +2454,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.626,2",
       "G. Salud (%G. Público Total)": "17,45%",
       "G. Salud %PIB": "4,08%",
-      "G. Público Salud Per Capita": "241,00",
+      "G. Público Salud Per Cápita": "241,00",
       "Var.": [
          "-5,04%",
          "2,11%"
@@ -2471,7 +2471,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.022,2",
       "G. Salud (%G. Público Total)": "7,39%",
       "G. Salud %PIB": "1,79%",
-      "G. Público Salud Per Capita": "1.391,00",
+      "G. Público Salud Per Cápita": "1.391,00",
       "Var.": [
          "-6,76%",
          "0,62%"
@@ -2488,7 +2488,7 @@ const datos =   [
       "Gasto Salud (M.€)": "14.357.174.682,1",
       "G. Salud (%G. Público Total)": "11,16%",
       "G. Salud %PIB": "4,43%",
-      "G. Público Salud Per Capita": "753,00",
+      "G. Público Salud Per Cápita": "753,00",
       "Var.": [
          "-3,81%",
          "1,73%"
@@ -2505,7 +2505,7 @@ const datos =   [
       "Gasto Salud (M.€)": "3.597,6",
       "G. Salud (%G. Público Total)": "13,69%",
       "G. Salud %PIB": "5,95%",
-      "G. Público Salud Per Capita": "529,00",
+      "G. Público Salud Per Cápita": "529,00",
       "Var.": [
          "-3,12%",
          "1,33%"
@@ -2522,7 +2522,7 @@ const datos =   [
       "Gasto Salud (M.€)": "104.758,5",
       "G. Salud (%G. Público Total)": "13,76%",
       "G. Salud %PIB": "4,89%",
-      "G. Público Salud Per Capita": "720,00",
+      "G. Público Salud Per Cápita": "720,00",
       "Var.": [
          "24,18%",
          "0,98%"
@@ -2539,7 +2539,7 @@ const datos =   [
       "Gasto Salud (M.€)": "355,2",
       "G. Salud (%G. Público Total)": "9,47%",
       "G. Salud %PIB": "2,81%",
-      "G. Público Salud Per Capita": "26,00",
+      "G. Público Salud Per Cápita": "26,00",
       "Var.": [
          "10,58%",
          "0,38%"
@@ -2556,7 +2556,7 @@ const datos =   [
       "Gasto Salud (M.€)": "38.092,4",
       "G. Salud (%G. Público Total)": "12,81%",
       "G. Salud %PIB": "3,62%",
-      "G. Público Salud Per Capita": "1.184,00",
+      "G. Público Salud Per Cápita": "1.184,00",
       "Var.": [
          "-2,14%",
          "1,84%"
@@ -2573,7 +2573,7 @@ const datos =   [
       "Gasto Salud (M.€)": "49,4",
       "G. Salud (%G. Público Total)": "9,72%",
       "G. Salud %PIB": "3,32%",
-      "G. Público Salud Per Capita": "63,00",
+      "G. Público Salud Per Cápita": "63,00",
       "Var.": [
          "-3,34%",
          "0,17%"
@@ -2590,7 +2590,7 @@ const datos =   [
       "Gasto Salud (M.€)": "61,2",
       "G. Salud (%G. Público Total)": "10,18%",
       "G. Salud %PIB": "3,13%",
-      "G. Público Salud Per Capita": "487,00",
+      "G. Público Salud Per Cápita": "487,00",
       "Var.": [
          "7,84%",
          "1,70%"
@@ -2607,7 +2607,7 @@ const datos =   [
       "Gasto Salud (M.€)": "381,3",
       "G. Salud (%G. Público Total)": "6,72%",
       "G. Salud %PIB": "1,19%",
-      "G. Público Salud Per Capita": "8,00",
+      "G. Público Salud Per Cápita": "8,00",
       "Var.": [
          "46,63%",
          "0,97%"
@@ -2624,7 +2624,7 @@ const datos =   [
       "Gasto Salud (M.€)": "54.174.407.742,1",
       "G. Salud (%G. Público Total)": "19,01%",
       "G. Salud %PIB": "9,69%",
-      "G. Público Salud Per Capita": "5.134,00",
+      "G. Público Salud Per Cápita": "5.134,00",
       "Var.": [
          "-13,27%",
          "0,36%"
@@ -2641,7 +2641,7 @@ const datos =   [
       "Gasto Salud (M.€)": "13.131,5",
       "G. Salud (%G. Público Total)": "18,12%",
       "G. Salud %PIB": "2,77%",
-      "G. Público Salud Per Capita": "2.324,00",
+      "G. Público Salud Per Cápita": "2.324,00",
       "Var.": [
          "-0,59%",
          "0"
@@ -2658,7 +2658,7 @@ const datos =   [
       "Gasto Salud (M.€)": "5.752.537.000,0",
       "G. Salud (%G. Público Total)": "14,95%",
       "G. Salud %PIB": "8,59%",
-      "G. Público Salud Per Capita": "2.708,00",
+      "G. Público Salud Per Cápita": "2.708,00",
       "Var.": [
          "31,37%",
          "0,86%"
@@ -2675,7 +2675,7 @@ const datos =   [
       "Gasto Salud (M.€)": "8.899.303.000,0",
       "G. Salud (%G. Público Total)": "14,56%",
       "G. Salud %PIB": "6,79%",
-      "G. Público Salud Per Capita": "1.641,00",
+      "G. Público Salud Per Cápita": "1.641,00",
       "Var.": [
          "23,98%",
          "1,56%"
@@ -2692,7 +2692,7 @@ const datos =   [
       "Gasto Salud (M.€)": "58,8",
       "G. Salud (%G. Público Total)": "5,20%",
       "G. Salud %PIB": "1,51%",
-      "G. Público Salud Per Capita": "7,00",
+      "G. Público Salud Per Cápita": "7,00",
       "Var.": [
          "-26,35%",
          "0,83%"
@@ -2709,7 +2709,7 @@ const datos =   [
       "Gasto Salud (M.€)": "111,2",
       "G. Salud (%G. Público Total)": "29,51%",
       "G. Salud %PIB": "6,56%",
-      "G. Público Salud Per Capita": "3.263,00",
+      "G. Público Salud Per Cápita": "3.263,00",
       "Var.": [
          "-3,46%",
          "0,00%"
@@ -2726,7 +2726,7 @@ const datos =   [
       "Gasto Salud (M.€)": "235,6",
       "G. Salud (%G. Público Total)": "3,37%",
       "G. Salud %PIB": "0,90%",
-      "G. Público Salud Per Capita": "13,00",
+      "G. Público Salud Per Cápita": "13,00",
       "Var.": [
          "-26,90%",
          "1,32%"
@@ -2743,7 +2743,7 @@ const datos =   [
       "Gasto Salud (M.€)": "17,1",
       "G. Salud (%G. Público Total)": "2,50%",
       "G. Salud %PIB": "0,17%",
-      "G. Público Salud Per Capita": "1,00",
+      "G. Público Salud Per Cápita": "1,00",
       "Var.": [
          "-33,61%",
          "9,06%"
@@ -2760,7 +2760,7 @@ const datos =   [
       "Gasto Salud (M.€)": "133,3",
       "G. Salud (%G. Público Total)": "13,12%",
       "G. Salud %PIB": "3,88%",
-      "G. Público Salud Per Capita": "214,00",
+      "G. Público Salud Per Cápita": "214,00",
       "Var.": [
          "29,57%",
          "0,51%"
@@ -2777,7 +2777,7 @@ const datos =   [
       "Gasto Salud (M.€)": "44,4",
       "G. Salud (%G. Público Total)": "2,11%",
       "G. Salud %PIB": "0,58%",
-      "G. Público Salud Per Capita": "4,00",
+      "G. Público Salud Per Cápita": "4,00",
       "Var.": [
          "-17,32%",
          "0,72%"
@@ -2794,7 +2794,7 @@ const datos =   [
       "Gasto Salud (M.€)": "21,4",
       "G. Salud (%G. Público Total)": "14,94%",
       "G. Salud %PIB": "4,12%",
-      "G. Público Salud Per Capita": "95,00",
+      "G. Público Salud Per Cápita": "95,00",
       "Var.": [
          "24,26%",
          "0,69%"
@@ -2811,7 +2811,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.859,6",
       "G. Salud (%G. Público Total)": "21,22%",
       "G. Salud %PIB": "6,12%",
-      "G. Público Salud Per Capita": "296,00",
+      "G. Público Salud Per Cápita": "296,00",
       "Var.": [
          "4,61%",
          "0,18%"
@@ -2828,7 +2828,7 @@ const datos =   [
       "Gasto Salud (M.€)": "248,3",
       "G. Salud (%G. Público Total)": "7,78%",
       "G. Salud %PIB": "1,41%",
-      "G. Público Salud Per Capita": "11,00",
+      "G. Público Salud Per Cápita": "11,00",
       "Var.": [
          "23,00%",
          "-0,92%"
@@ -2845,7 +2845,7 @@ const datos =   [
       "Gasto Salud (M.€)": "147,6",
       "G. Salud (%G. Público Total)": "11,35%",
       "G. Salud %PIB": "3,24%",
-      "G. Público Salud Per Capita": "121,00",
+      "G. Público Salud Per Cápita": "121,00",
       "Var.": [
          "-13,11%",
          "1,74%"
@@ -2862,7 +2862,7 @@ const datos =   [
       "Gasto Salud (M.€)": "156,8",
       "G. Salud (%G. Público Total)": "7,26%",
       "G. Salud %PIB": "1,01%",
-      "G. Público Salud Per Capita": "8,00",
+      "G. Público Salud Per Cápita": "8,00",
       "Var.": [
          "28,33%",
          "0,99%"
@@ -2879,7 +2879,7 @@ const datos =   [
       "Gasto Salud (M.€)": "51,3",
       "G. Salud (%G. Público Total)": "2,56%",
       "G. Salud %PIB": "0,67%",
-      "G. Público Salud Per Capita": "6,00",
+      "G. Público Salud Per Cápita": "6,00",
       "Var.": [
          "13,58%",
          "0,72%"
@@ -2896,7 +2896,7 @@ const datos =   [
       "Gasto Salud (M.€)": "17.366.507.782,1",
       "G. Salud (%G. Público Total)": "16,10%",
       "G. Salud %PIB": "3,64%",
-      "G. Público Salud Per Capita": "242,00",
+      "G. Público Salud Per Cápita": "242,00",
       "Var.": [
          "5,11%",
          "1,49%"
@@ -2913,7 +2913,7 @@ const datos =   [
       "Gasto Salud (M.€)": "177,4",
       "G. Salud (%G. Público Total)": "6,39%",
       "G. Salud %PIB": "1,79%",
-      "G. Público Salud Per Capita": "17,00",
+      "G. Público Salud Per Cápita": "17,00",
       "Var.": [
          "5,79%",
          "0,32%"
@@ -2930,7 +2930,7 @@ const datos =   [
       "Gasto Salud (M.€)": "163,7",
       "G. Salud (%G. Público Total)": "8,93%",
       "G. Salud %PIB": "10,31%",
-      "G. Público Salud Per Capita": "120,00",
+      "G. Público Salud Per Cápita": "120,00",
       "Var.": [
          "50,20%",
          "0,48%"
@@ -2947,7 +2947,7 @@ const datos =   [
       "Gasto Salud (M.€)": "590,8",
       "G. Salud (%G. Público Total)": "8,46%",
       "G. Salud %PIB": "0,80%",
-      "G. Público Salud Per Capita": "82,00",
+      "G. Público Salud Per Cápita": "82,00",
       "Var.": [
          "6,30%",
          "0,23%"
@@ -2964,7 +2964,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.736,3",
       "G. Salud (%G. Público Total)": "11,21%",
       "G. Salud %PIB": "3,94%",
-      "G. Público Salud Per Capita": "143,00",
+      "G. Público Salud Per Cápita": "143,00",
       "Var.": [
          "-5,87%",
          "0,60%"
@@ -2981,7 +2981,7 @@ const datos =   [
       "Gasto Salud (M.€)": "18,4",
       "G. Salud (%G. Público Total)": "8,65%",
       "G. Salud %PIB": "3,97%",
-      "G. Público Salud Per Capita": "175,00",
+      "G. Público Salud Per Cápita": "175,00",
       "Var.": [
          "14,04%",
          "0,36%"
@@ -2998,7 +2998,7 @@ const datos =   [
       "Gasto Salud (M.€)": "44.588.537.053,0",
       "G. Salud (%G. Público Total)": "10,05%",
       "G. Salud %PIB": "3,65%",
-      "G. Público Salud Per Capita": "522,00",
+      "G. Público Salud Per Cápita": "522,00",
       "Var.": [
          "-14,68%",
          "1,31%"
@@ -3015,7 +3015,7 @@ const datos =   [
       "Gasto Salud (M.€)": "817,1",
       "G. Salud (%G. Público Total)": "10,92%",
       "G. Salud %PIB": "2,87%",
-      "G. Público Salud Per Capita": "546,00",
+      "G. Público Salud Per Cápita": "546,00",
       "Var.": [
          "5,38%",
          "0,22%"
@@ -3032,7 +3032,7 @@ const datos =   [
       "Gasto Salud (M.€)": "7,5",
       "G. Salud (%G. Público Total)": "11,21%",
       "G. Salud %PIB": "13,32%",
-      "G. Público Salud Per Capita": "747,00",
+      "G. Público Salud Per Cápita": "747,00",
       "Var.": [
          "31,47%",
          "0,38%"
@@ -3049,7 +3049,7 @@ const datos =   [
       "Gasto Salud (M.€)": "691,2",
       "G. Salud (%G. Público Total)": "5,14%",
       "G. Salud %PIB": "0,98%",
-      "G. Público Salud Per Capita": "11,00",
+      "G. Público Salud Per Cápita": "11,00",
       "Var.": [
          "10,10%",
          "0,17%"
@@ -3066,7 +3066,7 @@ const datos =   [
       "Gasto Salud (M.€)": "7.218.651.559,4",
       "G. Salud (%G. Público Total)": "10,56%",
       "G. Salud %PIB": "4,28%",
-      "G. Público Salud Per Capita": "175,00",
+      "G. Público Salud Per Cápita": "175,00",
       "Var.": [
          "47,58%",
          "1,05%"
@@ -3083,7 +3083,7 @@ const datos =   [
       "Gasto Salud (M.€)": "366,1",
       "G. Salud (%G. Público Total)": "4,86%",
       "G. Salud %PIB": "0,98%",
-      "G. Público Salud Per Capita": "8,00",
+      "G. Público Salud Per Cápita": "8,00",
       "Var.": [
          "-8,12%",
          "0,85%"
@@ -3100,7 +3100,7 @@ const datos =   [
       "Gasto Salud (M.€)": "4.211,5",
       "G. Salud (%G. Público Total)": "20,94%",
       "G. Salud %PIB": "6,32%",
-      "G. Público Salud Per Capita": "1.242,00",
+      "G. Público Salud Per Cápita": "1.242,00",
       "Var.": [
          "11,68%",
          "2,18%"
@@ -3117,7 +3117,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1.911,6",
       "G. Salud (%G. Público Total)": "7,13%",
       "G. Salud %PIB": "2,50%",
-      "G. Público Salud Per Capita": "55,00",
+      "G. Público Salud Per Cápita": "55,00",
       "Var.": [
          "-6,05%",
          "0,33%"
@@ -3134,7 +3134,7 @@ const datos =   [
       "Gasto Salud (M.€)": "29,1",
       "G. Salud (%G. Público Total)": "8,63%",
       "G. Salud %PIB": "3,24%",
-      "G. Público Salud Per Capita": "285,00",
+      "G. Público Salud Per Cápita": "285,00",
       "Var.": [
          "-2,51%",
          "0,05%"
@@ -3151,7 +3151,7 @@ const datos =   [
       "Gasto Salud (M.€)": "2.536,1",
       "G. Salud (%G. Público Total)": "6,01%",
       "G. Salud %PIB": "2,07%",
-      "G. Público Salud Per Capita": "90,00",
+      "G. Público Salud Per Cápita": "90,00",
       "Var.": [
          "73,75%",
          "-0,07%"
@@ -3168,7 +3168,7 @@ const datos =   [
       "Gasto Salud (M.€)": "7.800,7",
       "G. Salud (%G. Público Total)": "10,70%",
       "G. Salud %PIB": "2,00%",
-      "G. Público Salud Per Capita": "78,00",
+      "G. Público Salud Per Cápita": "78,00",
       "Var.": [
          "13,48%",
          "0,12%"
@@ -3185,7 +3185,7 @@ const datos =   [
       "Gasto Salud (M.€)": "16,2",
       "G. Salud (%G. Público Total)": "3,89%",
       "G. Salud %PIB": "1,67%",
-      "G. Público Salud Per Capita": "52,00",
+      "G. Público Salud Per Cápita": "52,00",
       "Var.": [
          "42,67%",
          "0,25%"
@@ -3202,7 +3202,7 @@ const datos =   [
       "Gasto Salud (M.€)": "38,5",
       "G. Salud (%G. Público Total)": "15,15%",
       "G. Salud %PIB": "5,02%",
-      "G. Público Salud Per Capita": "179,00",
+      "G. Público Salud Per Cápita": "179,00",
       "Var.": [
          "-7,57%",
          "0,21%"
@@ -3219,7 +3219,7 @@ const datos =   [
       "Gasto Salud (M.€)": "68,3",
       "G. Salud (%G. Público Total)": "2,51%",
       "G. Salud %PIB": "0,31%",
-      "G. Público Salud Per Capita": "2,00",
+      "G. Público Salud Per Cápita": "2,00",
       "Var.": [
          "20,86%",
          "1,98%"
@@ -3236,7 +3236,7 @@ const datos =   [
       "Gasto Salud (M.€)": "15.518.853.015,4",
       "G. Salud (%G. Público Total)": "16,89%",
       "G. Salud %PIB": "4,01%",
-      "G. Público Salud Per Capita": "253,00",
+      "G. Público Salud Per Cápita": "253,00",
       "Var.": [
          "-6,62%",
          "1,05%"
@@ -3253,7 +3253,7 @@ const datos =   [
       "Gasto Salud (M.€)": "694,1",
       "G. Salud (%G. Público Total)": "8,89%",
       "G. Salud %PIB": "2,51%",
-      "G. Público Salud Per Capita": "34,00",
+      "G. Público Salud Per Cápita": "34,00",
       "Var.": [
          "14,01%",
          "1,64%"
@@ -3270,7 +3270,7 @@ const datos =   [
       "Gasto Salud (M.€)": "1,0",
       "G. Salud (%G. Público Total)": "5,21%",
       "G. Salud %PIB": "1,18%",
-      "G. Público Salud Per Capita": "0,00",
+      "G. Público Salud Per Cápita": "0,00",
       "Var.": [
          "10,33%",
          "0,67%"

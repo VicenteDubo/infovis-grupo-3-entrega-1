@@ -27,7 +27,7 @@ function graficar() {
     // Filtrar y mapear datos relevantes
     const paises = datos.map(d => d["Países"].trim());
     const esperanzaVida = datos.map(d => Number(d["Esperanza de vida"].replace(',', '.')));
-    const gastoPerCapita = datos.map(d => Number(d["G. Público Salud Per Capita"].replace(/\./g, '').replace(',', '.')));
+    const gastoPerCápita = datos.map(d => Number(d["G. Público Salud Per Cápita"].replace(/\./g, '').replace(',', '.')));
     const eficiencia = datos.map(d => Number(d["Eficiencia"].replace(',', '.')));
 
 
@@ -39,7 +39,7 @@ function graficar() {
 
     const paisesOrdenados = orden.map(i => paises[i]);
     const esperanzaOrdenada = orden.map(i => esperanzaVida[i]);
-    const gastoOrdenado = orden.map(i => gastoPerCapita[i]);
+    const gastoOrdenado = orden.map(i => gastoPerCápita[i]);
     const eficienciaOrdenada = orden.map(i => eficiencia[i]);
     
     
@@ -72,7 +72,7 @@ function graficar() {
     const barrasZoom = {
         x: paisesZoom,
         y: gastoZoom,
-        text: esperanzaZoom.map((ev, i) => `${paisesZoom[i]}<br>Esperanza de vida: ${ev}<br>Gasto per cápita: ${gastoZoom[i]}`),
+        text: esperanzaZoom.map((ev, i) => `${paisesZoom[i]}<br>Esperanza de vida: ${ev}<br>Gasto per Cápita: ${gastoZoom[i]}`),
         type: 'bar',
         marker: {color: coloresZoom},
         name: 'Zona > 80 años',
@@ -90,7 +90,7 @@ function graficar() {
             tickvals: paisesZoom,
             ticktext: paisesZoom
         },
-        yaxis: {title: 'Gasto Salud Per Capita (USD)'},
+        yaxis: {title: 'Gasto Salud Per Cápita (USD)'},
         bargap: 0.2,
         annotations: [
             {
@@ -98,7 +98,7 @@ function graficar() {
                 y: Math.max(...gastoZoom)*0.93,
                 xref: 'x',
                 yref: 'y',
-                text: '<b>Un tercio de los países<br>con esperanza de vida mayor a 80 años<br>gasta menos de 2000 USD per cápita</b>',
+                text: '<b>Un tercio de los países<br>con esperanza de vida mayor a 80 años<br>gasta menos de 2000 USD per Cápita</b>',
                 showarrow: false,
                 font: {color: 'white', size: 9},
                 align: 'center',
@@ -139,10 +139,10 @@ function graficar() {
     const barras = {
         x: paisesOrdenados,
         y: gastoOrdenado,
-        text: esperanzaOrdenada.map((ev, i) => `${paisesOrdenados[i]}<br>Esperanza de vida: ${ev}<br>Gasto per cápita: ${gastoOrdenado[i]}`),
+        text: esperanzaOrdenada.map((ev, i) => `${paisesOrdenados[i]}<br>Esperanza de vida: ${ev}<br>Gasto per Cápita: ${gastoOrdenado[i]}`),
         type: 'bar',
         marker: {color: coloresBarras},
-        name: 'Gasto Salud Per Capita',
+        name: 'Gasto Salud Per Cápita',
         hovertemplate: '%{text}<extra></extra>',
         width: 0.8
     };
@@ -155,12 +155,14 @@ function graficar() {
         yref: 'y',
         text: `Nauru gasta <b>más que<br>el 84%</b> de los países,<br>pero tiene una<br>esperanza de vida<br>de solo ${esperanzaOrdenada[idxNauru]} años.`,
         showarrow: true,
-        arrowhead: 6,
+        arrowhead: 2,
+        arrowsize: 1,
+        arrowwidth: 1.2,
         ax: 0,
-        ay: -90,
+        ay: -60,
         font: {color: 'black', size: 9},
         align: 'left',
-        bgcolor: '#fff',
+    bgcolor: 'rgba(255,255,255,0.7)',
         bordercolor: colorMorado,
         borderpad: 4
     } : null;
@@ -170,14 +172,16 @@ function graficar() {
         y: gastoOrdenado[idxEstadosUnidos],
         xref: 'x',
         yref: 'y',
-        text: `Estados Unidos gasta<br><b>65 veces más</b> que<br>Albania y tiene una<br>esperanza de vida peor.`,
+        text: `Estados Unidos gasta<br><b>65 veces más</b> que<br>Albania y tiene una<br>esperanza de vida menor.`,
         showarrow: true,
-        arrowhead: 6,
+        arrowhead: 2,
+        arrowsize: 1,
+        arrowwidth: 1.2,
         ax: 0,
         ay: -60,
         font: {color: 'black', size: 9},
         align: 'left',
-        bgcolor: '#fff',
+        bgcolor: 'rgba(255,255,255,0.7)',
         bordercolor: colorMorado,
         borderpad: 4
     } : null;
@@ -190,12 +194,14 @@ function graficar() {
         yref: 'y',
         text: `Albania gasta <b>menos que<br>el 66%</b> de los países y<br>tiene <b>mejor</b> esperanza de<br>vida <b>que el 80%</b> de ellos.`,
         showarrow: true,
-        arrowhead: 6,
+        arrowhead: 2,
+        arrowsize: 1,
+        arrowwidth: 1.2,
         ax: 0,
-        ay: -140,
+        ay: -150,
         font: {color: 'black', size: 9},
         align: 'left',
-        bgcolor: '#fff',
+    bgcolor: 'rgba(255,255,255,0.7)',
         bordercolor: colorMorado,
         borderpad: 4
     } : null;
@@ -243,7 +249,7 @@ function graficar() {
         //     borderpad: 6
         // };
     const layoutBarras = {
-        title: 'Gasto Salud Per Capita vs Esperanza de Vida por País',
+        title: 'Gasto Salud Per Cápita vs Esperanza de Vida por País',
         xaxis: {
             title: 'Países ordenados por esperanza de vida',
             tickangle: 0,
@@ -251,7 +257,7 @@ function graficar() {
             tickvals: tickvals, // <-- Países más cercanos a cada rango
             ticktext: ticktext  // <-- Etiquetas de los rangos
         },
-        yaxis: {title: 'Gasto Salud Per Capita (USD)'},
+        yaxis: {title: 'Gasto Salud Per Cápita (USD)'},
         legend: {x: 0.8, y: 1.1},
         bargap: 0.2,
         annotations: [...anotaciones]
@@ -298,7 +304,7 @@ function graficar() {
         },
         textposition: 'bottom center',
         name: 'País',
-        hovertemplate: '%{text}<br>Esperanza de vida: %{x}<br>Gasto per cápita: %{y}<extra></extra>',
+        hovertemplate: '%{text}<br>Esperanza de vida: %{x}<br>Gasto per Cápita: %{y}<extra></extra>',
         textfont: {size: 5} // <-- Ajusta el tamaño de la letra de los nombres de los puntos aquí
     };
 
@@ -316,7 +322,7 @@ function graficar() {
     };
 
     const layoutDispersion = {
-        title: 'Dispersión: Gasto Salud Per Capita vs Esperanza de Vida',
+        title: 'Dispersión: Gasto Salud Per Cápita vs Esperanza de Vida',
         xaxis: {title: 'Esperanza de vida', tickfont: {size: 7}}, // <-- Ajusta el tamaño de la letra del eje x aquí
         yaxis: {title: 'Gasto Salud Per Cápita (USD)', tickfont: {size: 7}, range: [0, Math.max(...gastoOrdenado)*1.1]}, // <-- Ajusta el tamaño de la letra del eje y aquí
         legend: {font: {size: 7}} // <-- Ajusta el tamaño de la letra de la leyenda aquí
